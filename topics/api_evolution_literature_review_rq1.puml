@@ -1,0 +1,115 @@
+@startmindmap api_evo_lit_review_rq1
+
+' *[#Orange]:API Evo
+' Liturature review;
+
+*[#LightBlue]:RQ1: How has the field of
+API evolution research evolved;
+
+** API evo research goal
+*** New tools and Techniques
+****_ reduce complexity [155]
+****_ conserve familiarity [156]
+****_ organize changes [94, 165]
+
+*** Empirical Studies
+**** Data-mining Studies
+*****_ large sources of data
+
+**** Case Studies
+*****_ specific system
+
+**** User Studies
+*****_ learning barriers [79]
+*****_ API usage of an IDE [26]
+*****_ understand developers' deprecation neds [161]
+*****_ how api docs fails [179]
+*****_ usability of factory pattern in API [50]
+*****_ what make api hard to learn [151]
+*****_ pitfalls of unfamiliar APIs [47]
+*****_ API usability
+
+
+*** Tools and techniques proposals
+****_ most API breaking changes are caused by refactoring
+****_:automatically detect API refactorings
+(not complete and not evaluated);
+
+*** Surveys
+****_:present an overview of a
+subject using existing literature;
+
+*** Datasets
+****_ conduct further studies [11]
+****_ advance the state-of-the-art [3]
+****_ improve reproducibility of research [162]
+
+** API evo research evaluation
+*** Type of evaluation
+**** Empirical evaluation
+*****_:quantitative metrics
+LOC, precision and recall, etc;
+
+**** Case studies evaluation
+*****_ examine single subject systems
+
+**** User studies evaluation
+*****_ Surveys
+*****_ interviews
+
+**** qualitative evaluation
+*****_ subjective interpretations
+
+*** New tools and Techniques
+****_ do not formally evaluate their tool
+****_:evaluate for accuracy
+(true positive rate [19, 110, 145, 173])
+(precision, recall, F1-score,
+and the area-under-the-curve [29, 76, 182, 183, 198]);
+
+*** Empirical Studies
+**** quantitative analysis
+*****_ changes in APIs [100]
+*****_ changes in lines of code [109]
+*****_ code smells [65]
+*****_ API popularity [22]
+*****_ errors [121]
+
+**** case studies
+*****_ Quantifying API changes
+*****_ qualitative evaluations [14, 38, 149]
+***** uncover new evaluation metrics
+******_ promises and perils [38]
+******_ types of ripple effects [149]
+******_ API migration issues [14]
+
+*** Tools and Techniques Proposals
+****_ concentrate on abstracted problems
+****_ rarely evaluate their methodology
+**** exceptions
+*****[#00000000]:web API
+latency to benchmark performance [189];
+*****[#00000000]:specific software metrics
+that could be improved [93];
+*****[#00000000]:tool proposal
+evaluate through accuracy [44];
+
+*** Surveys
+**** concentrates on existing literature
+*****_:don't rely on metrics
+to evaluate;
+*****_ rely on evaluation presented
+**** provide the results of questions
+*****_ quantifiable
+
+*** Datasets
+****_ not evaluated [162]
+****_ manually verified by inviduals [3]
+****_ manually verified by statistically significant sample [11]
+
+** API evo experimental subjects
+***_ 270/291 at least 1 API to evaluate
+***_ 25/291 do not present/use an API to evaluate
+***_ mostly evaluated with Java
+
+@endmindmap
