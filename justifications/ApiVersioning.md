@@ -1,0 +1,46 @@
+API Versioning
+---
+
+> Some resources:
+> * [https://stackoverflow.com/questions/389169/best-practices-for-api-versioning](https://stackoverflow.com/questions/389169/best-practices-for-api-versioning)
+
+
+
+# 1. Constrains
+
+* The URI should not change over time
+* The versioned URI should have litmitted time of life (expected to be expired)
+* The expired version should return 301 moved permanently or 302 found or 410 gone with a warning in response header
+
+# 2. Solutions
+
+## 2.1. Versioning in the URI segment - More practical
+
+```
+https://localhost.com/api/v2.0/customers/123
+https://localhost.com/api/v1/customers/123
+```
+
+## 2.2. Versioning in the Accept header of request - More freedom
+
+```
+https://localhost.com/api/customers/123
+
+==>
+HTTP method: GET
+Accept: application/json+v3
+
+<==
+HTTP/1.1 200 OK
+Content-Type: application/json+v3
+Body:
+{
+    "test":"test data"
+}
+```
+
+## 2.3. Versioning in the query string - Pollute the parameter list
+
+```
+https://localhost.com/api/customers/123?version=1
+```
