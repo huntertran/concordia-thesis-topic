@@ -1,0 +1,20 @@
+@startuml ApiVersioning
+
+hide empty members
+
+package Api {
+    abstract class CommonLogic
+
+    package v1 {
+        class Logic
+    }
+
+    package v2 {
+        class UpgradedLogic
+    }
+}
+
+Logic <-- CommonLogic
+UpgradedLogic <-- CommonLogic
+
+@enduml

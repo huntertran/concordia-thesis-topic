@@ -12,7 +12,7 @@ API Versioning
 * The versioned URI should have litmitted time of life (expected to be expired)
 * The expired version should return 301 moved permanently or 302 found or 410 gone with a warning in response header
 
-# 2. Solutions
+# 2. Approaches
 
 ## 2.1. Versioning in the URI segment - More practical
 
@@ -44,3 +44,9 @@ Body:
 ```
 https://localhost.com/api/customers/123?version=1
 ```
+
+# 3. Implementations
+
+Inherit from a common abstract class for common logic
+
+![simple implementation](out\justifications\ApiVersioning\ApiVersioning.png)
