@@ -49,4 +49,4 @@ https://localhost.com/api/customers/123?version=1
 
 Inherit from a common abstract class for common logic
 
-![simple implementation](out\justifications\ApiVersioning\ApiVersioning.png)
+![simple implementation](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ApiVersioning/ApiVersioning.png?raw=true)
