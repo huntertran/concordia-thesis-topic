@@ -65,7 +65,8 @@ Idea found: paper 3
 
 Description: In [Breaking Self-Descriptiveness](http://sofa.uqam.ca/resources/antipatterns.php#Breaking%20Self-descriptiveness), the heuristic rule check if the `response headers` or `request headers` of the inspected API belong to a set of predefined standardized headers.
 
-![breaking self-descriptiveness](http://sofa.uqam.ca/soda-r/img/BSD.jpg)
+![breaking self-descriptiveness](https://i.imgur.com/DJWZrP0.png)
+
 _source: http://sofa.uqam.ca/resources/antipatterns.php#Breaking%20Self-descriptiveness_
 
 In the extension to this anti patterns, there is some case that the developer don't use the headers, but invent their own.
