@@ -10,8 +10,11 @@ Concordia University - Montréal - Québec - Canada
     - [1.2. Hardcoded Endpoints?](#12-hardcoded-endpoints)
     - [1.3. Time out <> No time out](#13-time-out--no-time-out)
     - [1.4. An extension of Breaking Self-Descriptiveness](#14-an-extension-of-breaking-self-descriptiveness)
-- [2. Criteria for RESTful API design](#2-criteria-for-restful-api-design)
-- [3. Papers](#3-papers)
+    - [1.5. Use POST instead of PATCH](#15-use-post-instead-of-patch)
+    - [1.6. Use POST instead of PUT](#16-use-post-instead-of-put)
+- [2. Principle for RESTful API design](#2-principle-for-restful-api-design)
+- [3. Some criteria for RESTful API design](#3-some-criteria-for-restful-api-design)
+- [4. Papers](#4-papers)
 
 <!-- /TOC -->
 
@@ -62,22 +65,54 @@ Idea found: paper 3
 
 Description: In [Breaking Self-Descriptiveness](http://sofa.uqam.ca/resources/antipatterns.php#Breaking%20Self-descriptiveness), the heuristic rule check if the `response headers` or `request headers` of the inspected API belong to a set of predefined standardized headers.
 
+![breaking self-descriptiveness](http://sofa.uqam.ca/soda-r/img/BSD.jpg)
+_source: http://sofa.uqam.ca/resources/antipatterns.php#Breaking%20Self-descriptiveness_
+
 In the extension to this anti patterns, there is some case that the developer don't use the headers, but invent their own.
 
 Example:
 
+[Floodlight REST API](https://floodlight.atlassian.net/wiki/spaces/floodlightcontroller/pages/1343492/Floodlight+REST+API+pre-v1.0)
+
 ```
-https://example.com/api/module/status/json
+http://192.168.110.2:8080/wm/core/controller/switches/json
 ```
 
 In the example above, instead of using `Accept` header, the developer include the MIME type in the URI.
 
-# Criteria for RESTful API design
-<a id="markdown-criteria-for-restful-api-design" name="criteria-for-restful-api-design"></a>
+> Floodlight is the leading open source OpenFlow controller.
+>
+> OpenFlow is a open standard managed by Open Networking Foundation. It specifies a protocol by which a remote controller can modify the behavior of networking devices through a well-defined “forwarding instruction set”. Floodlight is designed to work with the growing number of switches, routers, virtual switches, and access points that support the OpenFlow standard.
+
+## 1.5. Use POST instead of PATCH
+<a id="markdown-use-post-instead-of-patch" name="use-post-instead-of-patch"></a>
+
+By definition, the `POST` method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. A lot of developers use `POST` to modify a piece of information, instead of `PATCH`
+
+> This can be generalized as "using the wrong HTTP Verbs"
+
+## 1.6. Use POST instead of PUT
+<a id="markdown-use-post-instead-of-put" name="use-post-instead-of-put"></a>
+
+By definition, the `PUT` method requests that the enclosed entity be stored under the supplied URI (aka create new object). In practice, developer usually use `POST` (or even `GET`) to create new object in database.
+
+> This can be generalized as "using the wrong HTTP Verbs"
+
+# 2. Principle for RESTful API design
+<a id="markdown-principle-for-restful-api-design" name="principle-for-restful-api-design"></a>
+
+In paper 4:
+1. Usage of HTTP Verbs
+2. Usage of HTTP status codes
+3. Provide paging for collection
+4. Definition of Resources
+
+# 3. Some criteria for RESTful API design
+<a id="markdown-some-criteria-for-restful-api-design" name="some-criteria-for-restful-api-design"></a>
 
 
 
-# 2. Papers
+# 4. Papers
 <a id="markdown-papers" name="papers"></a>
 
 1. A systematic Review of API Evolution Literature
@@ -85,7 +120,7 @@ In the example above, instead of using `Accept` header, the developer include th
 [Summary](topics/out/api_evo_lit_review_rq1.png) for RQ1
 
 2. Maintenance Support for Microservice-based Systems by Specification and Identification of Microservice Antipatterns
-
 3. Design and Describe REST API without Violating REST: A Petri Net Based
 Approach
-
+4. Model-driven Development of RESTful APIs
+5. Preliminary Analysis of REST API Style Guidelines
