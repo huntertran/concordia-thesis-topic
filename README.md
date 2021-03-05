@@ -14,6 +14,10 @@ Concordia University - Montréal - Québec - Canada
     - [1.6. Use POST instead of PUT](#16-use-post-instead-of-put)
 - [2. Principle for RESTful API design](#2-principle-for-restful-api-design)
 - [3. Some criteria for RESTful API design](#3-some-criteria-for-restful-api-design)
+    - [3.1. Following standards](#31-following-standards)
+    - [3.2. No customizing headers Minimized customization](#32-no-customizing-headers-minimized-customization)
+    - [3.3. Adequate security implementation](#33-adequate-security-implementation)
+    - [3.4. Support Cross-origin Resource Sharing CORS](#34-support-cross-origin-resource-sharing-cors)
 - [4. Papers](#4-papers)
 
 <!-- /TOC -->
@@ -111,7 +115,23 @@ In paper 4:
 # 3. Some criteria for RESTful API design
 <a id="markdown-some-criteria-for-restful-api-design" name="some-criteria-for-restful-api-design"></a>
 
+## 3.1. Following standards
+<a id="markdown-following-standards" name="following-standards"></a>
 
+The developers/system architect of the RESTful API should follow the standards and protocols predefined by [IANA](https://www.iana.org/protocols)
+
+## 3.2. No customizing headers (Minimized customization)
+<a id="markdown-no-customizing-headers-minimized-customization" name="no-customizing-headers-minimized-customization"></a>
+
+Customized headers add extra work to the implementation, usage and documentation of the API. The customized headers need to be maintained over generations of the service.
+
+## 3.3. Adequate security implementation
+<a id="markdown-adequate-security-implementation" name="adequate-security-implementation"></a>
+
+The RESTful API should employ the current, up-to-date security mechanism. For 2021, these mechanism should be the usage of Secure Sockets Layer (SSL) to encrypt the traffic, and Transport Layer Security (TLS) to secure the data in the request/response
+
+## 3.4. Support Cross-origin Resource Sharing (CORS)
+<a id="markdown-support-cross-origin-resource-sharing-cors" name="support-cross-origin-resource-sharing-cors"></a>
 
 # 4. Papers
 <a id="markdown-papers" name="papers"></a>
