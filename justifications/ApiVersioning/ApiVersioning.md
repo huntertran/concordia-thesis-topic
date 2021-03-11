@@ -3,6 +3,7 @@ API Versioning
 
 > Some resources:
 > * [https://stackoverflow.com/questions/389169/best-practices-for-api-versioning](https://stackoverflow.com/questions/389169/best-practices-for-api-versioning)
+> * [https://cloud.google.com/apis/design/versioning](https://cloud.google.com/apis/design/versioning)
 
 
 
@@ -11,6 +12,13 @@ API Versioning
 * The URI should not change over time
 * The versioned URI should have litmitted time of life (expected to be expired)
 * The expired version should return 301 moved permanently or 302 found or 410 gone with a warning in response header
+
+# When to version
+
+Definition of a breaking changes:
+
+* [Microsoft](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#123-definition-of-a-breaking-change)
+
 
 # 2. Approaches
 
