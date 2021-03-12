@@ -15,7 +15,7 @@ Categorizing the (anti)-patterns of RESTful API
 |(Forgetting Hypermedia)            |Breaking Self-descriptiveness      |
 |(Ignoring Caching)                 |Ignoring status code               |
 |(Ignoring MIME type)               |Using the wrong HTTP Verbs         |
-|**_Versioning API_**               |**_Hardcoded Endpoints_**          |
+|[**_Versioning API_**](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/ApiVersioning/ApiVersioning.md)|**_Hardcoded Endpoints_**          |
 |**_No timeout_**                   |                                   |
 |**_POST-PUT-PATCH return_**        |                                   |
 |**_Timezone for time data_**       |                                   |

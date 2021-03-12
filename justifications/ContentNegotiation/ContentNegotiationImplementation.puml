@@ -1,0 +1,24 @@
+@startuml Content Negotiation
+
+hide empty members
+
+abstract BaseObject {
+    {abstract} + String serialize()
+}
+
+class XmlObject {
+    +serialize():String
+}
+
+class JsonObject {
+    +serialize():String
+}
+
+class ObjectFactory {
+    {static} + BaseObject getObject()
+}
+
+JsonObject --> BaseObject : extends
+XmlObject --> BaseObject : extends
+
+@enduml
