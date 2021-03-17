@@ -1,0 +1,55 @@
+@startuml SpringCacheManager
+
+hide empty members
+
+package cache {
+    ' interface Cache
+    interface CacheManager {
+        getCache(String key): Cache
+    }
+
+    ' package concurrent {
+    '     class ConcurrentMapCacheManager
+    ' }
+
+    package support {
+        abstract AbstractCacheManager
+        ' class CompositeCacheManager
+        ' class NoOpCacheManager
+        class SimpleCacheManager
+    }
+
+    package transaction {
+        abstract AbstractTransactionSupportingCacheManager
+        class TransactionAwareCacheManagerProxy {
+            -targetCacheManager:CacheManager
+        }
+    }
+
+    package ehcache {
+        class EhCacheCacheManager {
+            -cacheManager:net.sf.ehcache.CacheManager
+        }
+    }
+
+    package jcache {
+        class JCacheCacheManager {
+            -cacheManager:CacheManager
+        }
+    }
+}
+
+' ConcurrentMapCacheManager ..> CacheManager
+' ConcurrentMapCacheManager --> Cache
+' CacheManager ..> Cache
+
+AbstractCacheManager ..> CacheManager
+' CompositeCacheManager --> CacheManager
+' NoOpCacheManager --> CacheManager
+SimpleCacheManager --> AbstractCacheManager
+AbstractTransactionSupportingCacheManager --> AbstractCacheManager
+JCacheCacheManager --> AbstractTransactionSupportingCacheManager
+EhCacheCacheManager --> AbstractTransactionSupportingCacheManager
+TransactionAwareCacheManagerProxy ..> CacheManager
+
+@enduml

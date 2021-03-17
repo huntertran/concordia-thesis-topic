@@ -1,0 +1,19 @@
+@startuml InMemoryCaching
+
+hide empty members
+
+skinparam linetype ortho
+
+() Client
+
+package Application {
+    rectangle CacheManager
+    rectangle Controllers
+}
+
+Client --[#red]-> CacheManager
+CacheManager -[#red]-> Controllers
+Controllers -[#green]-> CacheManager
+CacheManager --[#green]-> Client
+
+@enduml
