@@ -86,4 +86,7 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
     * Each cache operations will handle the transaction differently
     * The design pattern was modified with an abstract class between the client of the strategy and the actual invoker. This was to implement some pre-conditions before invoke the corresponding strategy.
 
+* Builder design pattern
+    * Because each cache operation is the same in structure, but different in algorithm
+
 ## 2.5. Client side caching 
