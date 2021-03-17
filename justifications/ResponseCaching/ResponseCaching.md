@@ -74,7 +74,7 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
 
 **Cache Manager**
 
-
+![CacheManager](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ResponseCaching/SpringCacheManager.png?raw=true)
 
 * Proxy design pattern:
     * All the adapted caching solutions will support the same built-in awareness of Spring-managed transactions.
