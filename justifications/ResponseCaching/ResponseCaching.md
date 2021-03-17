@@ -80,5 +80,10 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
     * All the adapted caching solutions will support the same built-in awareness of Spring-managed transactions.
     * User can switch to use any implementation of the CacheManager without changing the underline algorithm for spring-managed transaction
 
+**Cache Operation**
+
+* Strategy design pattern
+    * Each cache operations will handle the transaction differently
+    * The design pattern was modified with an abstract class between the client of the strategy and the actual invoker. This was to implement some pre-conditions before invoke the corresponding strategy.
 
 ## 2.5. Client side caching 
