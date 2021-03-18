@@ -82,6 +82,8 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
 
 **Cache Operation**
 
+![CacheOperation](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ResponseCaching/CacheOperationSpringFramework.png?raw=true)
+
 * Strategy design pattern
     * Each cache operations will handle the transaction differently
     * The design pattern was modified with an abstract class between the client of the strategy and the actual invoker. This was to implement some pre-conditions before invoke the corresponding strategy.

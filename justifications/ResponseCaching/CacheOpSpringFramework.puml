@@ -1,0 +1,19 @@
+@startuml CacheOperationSpringFramework
+
+hide empty members
+
+abstract CacheOperation
+
+class CacheableOperation
+class CacheEvictOperation
+class CachePutOperation
+
+class client {
+    #invokeOperation():Object
+}
+
+CacheableOperation --> CacheOperation
+CacheEvictOperation --> CacheOperation
+CachePutOperation --> CacheOperation
+
+@enduml
