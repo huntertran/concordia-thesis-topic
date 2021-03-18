@@ -91,4 +91,4 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
 * Builder design pattern
     * Because each cache operation is the same in structure, but different in algorithm
 
-## 2.5. Client side caching 
+## 2.5. Client side caching

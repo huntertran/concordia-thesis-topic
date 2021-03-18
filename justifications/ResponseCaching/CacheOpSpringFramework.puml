@@ -4,9 +4,23 @@ hide empty members
 
 abstract CacheOperation
 
+class CacheOperation.Builder {
+    {abstract} +build():CacheOperation
+}
+
 class CacheableOperation
+
+class CacheableOperation.Builder
+
 class CacheEvictOperation
+
+class CacheEvictOperation.Builder
+
 class CachePutOperation
+
+class CachePutOperation.Builder
+
+
 
 class client {
     #invokeOperation():Object
@@ -15,5 +29,15 @@ class client {
 CacheableOperation --> CacheOperation
 CacheEvictOperation --> CacheOperation
 CachePutOperation --> CacheOperation
+
+CacheOperation +-- CacheOperation.Builder
+CacheableOperation +-- CacheableOperation.Builder
+CacheEvictOperation +-- CacheEvictOperation.Builder
+CachePutOperation +-- CachePutOperation.Builder
+
+CacheableOperation.Builder --> CacheOperation.Builder
+CacheEvictOperation.Builder --> CacheOperation.Builder
+CachePutOperation.Builder --> CacheOperation.Builder
+
 
 @enduml
