@@ -8,7 +8,7 @@ Categorizing the (anti)-patterns of RESTful API
 |[Content negotiation](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/ContentNegotiation/ContentNegotiation.md)|Entity Endpoint                    |
 |Endpoint redirection               |Contextless Resource name          |
 |Entity Linking                     |Non-hierarchical Nodes             |
-|Response caching                   |Amorphous URI                      |
+|[Response caching](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/ResponseCaching/ResponseCaching.md)                   |Amorphous URI                      |
 |                                   |Verbless URI                       |
 |                                   |Singularized Nodes                 |
 |                                   |Pertinent (Relevant) Documentation |
