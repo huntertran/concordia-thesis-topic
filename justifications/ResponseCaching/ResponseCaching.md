@@ -3,6 +3,7 @@ Response Caching
 
 > Some resources:
 > * [Response Caching in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/response?view=aspnetcore-5.0)
+> * [Cache-Aside pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside)
 
 # 1. Constrains
 
