@@ -69,7 +69,7 @@ To implement serverside caching capability, we need:
     * Check the cache entry
     * Update the cache with new data
 
-1. Java `spring framework`
+### 2.4.1. Java `spring framework`
 
 The Java `Spring Framework` applied multiple design patterns for Caching feature:
 
@@ -91,6 +91,46 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
 
 * Builder design pattern
     * Because each cache operation is the same in structure, but different in algorithm
+
+### 2.4.2. Other frameworks and languages (generalized)
+
+To efficiently implement caching, we could use the combination of the following architectures and designs:
+* Dependency Injection design pattern
+
+Sample code in C# (ASP.NET core)
+
+```csharp
+public class SampleController
+{
+    private readonly ICustomizedCacheService _cache;
+    private readonly IItemRepository _itemRepository;
+
+    public SampleController(ICustomizedCacheService cache,
+                            IItemRepository itemRepository)
+    {
+        this._cache = cache;
+        this._itemRepository = itemRepository;
+    }
+
+    [HttpGet]
+    public IActionResult GetItem(string id)
+    {
+        string cacheKey = _cache.GenerateKey(id);
+
+        Item result = _cache.Get(cacheKey);
+
+        if(result == null)
+        {
+            result = _itemRepository.Get(id);
+
+            _cache.Set(cacheKey, result)
+        }
+
+        return Ok(result);
+    }
+}
+```
+
 
 ## 2.5. Client side caching
 
