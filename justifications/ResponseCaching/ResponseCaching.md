@@ -92,3 +92,7 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
     * Because each cache operation is the same in structure, but different in algorithm
 
 ## 2.5. Client side caching
+
+When the server appropriately implements caching mechanism, the client can start using the headers listed above to request a resource to be cached. In addition, the browser could also cache some unlikely to change resources like javascripts and css libraries, images, non-html files, etc.
+
+One common pratice to force replace the cached resource is to send the request with a new timestamp parameter.
