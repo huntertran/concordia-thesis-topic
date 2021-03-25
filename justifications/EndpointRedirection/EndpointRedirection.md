@@ -30,7 +30,7 @@ The redirection logics were separated to `V1Redirector` class. This class will b
 
 ![Nested class](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/EndpointRedirection/EndpointRedirectionNestedClass.png?raw=true)
 
-## Comparison
+## 3.3. Comparison
 
 |  | Extend | Nested |
 |-|-|-|
@@ -41,7 +41,7 @@ The redirection logics were separated to `V1Redirector` class. This class will b
 
 # 4. Implementation
 
-## Common
+## 4.1. Common
 
 Interface for V1 API
 
@@ -70,7 +70,7 @@ public class V1Logic implements IV1Logic {
 }
 ```
 
-## Separated Redirector
+## 4.2. Separated Redirector
 
 Redirector class
 
@@ -108,7 +108,7 @@ public class V2Logic extends V1Redirector {
 }
 ```
 
-## Nested Redirector
+## 4.3. Nested Redirector
 
 V1 API Redirector
 
