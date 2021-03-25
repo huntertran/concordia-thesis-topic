@@ -1,0 +1,52 @@
+@startuml EndpointRedirectionNestedClass
+
+hide empty members
+
+circle Client
+
+package Api {
+
+    package v1 {
+        interface IV1Logic {
+            actionA()
+            actionB()
+        }
+        class V1Logic{
+            +actionA()
+            +actionB()
+        }
+    }
+
+    package v2 {
+        class V1Redirector {
+            +actionA()
+            +actionB()
+        }
+        class V2Logic {
+            -v1Redirector:V1Redirector
+            __
+            .. call method from redirector ..
+            +actionA()
+            +actionB()
+            __
+            .. v2 only method ..
+            +actionC()
+            +actionD()
+        }
+    }
+}
+
+V1Logic ..> IV1Logic : implement
+V1Redirector ..> IV1Logic : implement
+V2Logic ..> IV1Logic : implement
+V2Logic +-- V1Redirector
+
+note bottom of V1Redirector
+    implement
+    resource mapping
+    mechanism
+endnote
+
+Client ..> V2Logic : call API
+
+@enduml
