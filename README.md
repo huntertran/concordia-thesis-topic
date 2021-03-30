@@ -22,6 +22,7 @@ Concordia University - Montréal - Québec - Canada
     - [3.4. Support Cross-origin Resource Sharing CORS](#34-support-cross-origin-resource-sharing-cors)
 - [4. Papers](#4-papers)
 - [5. Tools](#5-tools)
+    - [5.1. Surveys](#51-surveys)
 
 <!-- /TOC -->
 
@@ -207,3 +208,8 @@ Approach
 <a id="markdown-tools" name="tools"></a>
 
 * [`Protocol Buffer`](https://developers.google.com/protocol-buffers/) is a language-neutral, platform-neutral for serializing structured data.
+
+## Surveys
+<a id="markdown-surveys" name="surveys"></a>
+
+* Part A Preview: [https://www.surveymonkey.com/r/Preview/?sm=JzpbXlXIkQLWzE3lEKrkRP3PeVsU6Z7nM11U0jo5jLGFIj2CQxaC0n8jPLmMoRxJ](https://www.surveymonkey.com/r/Preview/?sm=JzpbXlXIkQLWzE3lEKrkRP3PeVsU6Z7nM11U0jo5jLGFIj2CQxaC0n8jPLmMoRxJ)

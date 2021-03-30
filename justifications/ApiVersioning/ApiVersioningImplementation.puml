@@ -1,5 +1,7 @@
 @startuml ApiVersioning
 
+' skinparam linetype ortho
+
 hide empty members
 
 circle Client
@@ -31,13 +33,13 @@ package Api {
     }
 }
 
-V1Logic <-- CommonLogic
-V1Logic <-- IV1Logic : implement
-V2Logic <-- CommonLogic
-V2Logic <-- IV2Logic : implement
-V2Logic <-- IV1Logic : implement
+V1Logic --> CommonLogic
+V1Logic ..> IV1Logic : implement
+V2Logic --> CommonLogic
+V2Logic ..> IV2Logic : implement
+V2Logic ..> IV1Logic : implement
 
-Client ..> V2Logic : call API
+Client -- V2Logic : call API
 note left of V2Logic::oldV1Logic
     oldV1Logic.actionA()
     oldV1Logic.actionB()
