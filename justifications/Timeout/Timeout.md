@@ -35,9 +35,9 @@ When there is a long running operation on the server, the client need to wait to
 Not really, this pattern was designed to prevent repeated call to an operation that is likely to fail and usually employed in microservices architecture
 
 > More information:
-> * https://www.ibm.com/garage/method/practices/manage/> practice_circuit_breaker_pattern
+> * https://www.ibm.com/garage/method/practices/managepractice_circuit_breaker_pattern
 > * https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
-> * Original idea from [Release It!](https://pragprog.com/titles/mnee2/> release-it-second-edition/) book
+> * Original idea from [Release It!](https://pragprog.com/titles/mnee2/release-it-second-edition/) book
 
 ## 3.2. Timeout
 
