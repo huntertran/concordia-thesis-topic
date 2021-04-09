@@ -55,3 +55,49 @@ This pattern will require some extra work from the client
 ![diagram](https://docs.microsoft.com/en-us/azure/architecture/patterns/_images/async-request.png)
 
 Source: https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply
+
+Note: For this to be realized, the client must be programmed in a way that can polling the server for result. The server must store the calculated result in some kinds of database or caching memory.
+
+## 3.4. A comparisons between 2 approaches
+
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th>Timeout</th>
+    <th>Async request-reply</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">Pros</td>
+    <td>No requirement for client side</td>
+    <td>Client and server can re-establish connection after disconnected</td>
+  </tr>
+  <tr>
+    <td>Easier to implementation</td>
+    <td>The same result can be served instantly</td>
+  </tr>
+  <tr>
+    <td>Single system involved</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="3">Cons</td>
+    <td>Risk of incorrect predefined timeout value</td>
+    <td>Require implementation in both client and server side</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Require a mechanism to store calculated data</td>
+  </tr>
+  <tr>
+    <td colspan="2">If the client disconnect early, the server still wasting resources until timeout</td>
+  </tr>
+</tbody>
+</table>
+
+## 3.5. A combination of Timeout and Asynchronous Request-Reply pattern
+
+Developer can choose to combine both approaches to maximize the benefit.
+
