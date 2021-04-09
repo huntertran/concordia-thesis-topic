@@ -1,6 +1,10 @@
 Timeout - No timeout
 ---
 
+OR
+
+**Long running operation can be cancelled**
+
 Some resources:
 
 > https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply
@@ -9,55 +13,45 @@ Some resources:
 > 
 > https://www.brendanlong.com/http-timeout-header-for-requesting-resources-from-the-future.html - Solve media streaming latency problem
 
-# 1. Constrain
+# 1. Problems
 
-* Each transaction should have a time out value. The client cannot wait forever for a transaction to be complete.
-* what happen on the server when the transaction exceed timeout value?
-    * store data in cache
-    * log warning to developer
-    * apply the `Asynchronous Request-Reply pattern` by Microsoft
+When there is a long running operation on the server, the client need to wait to receive the response. In this case, there was multiple potential problems that can happened:
+* The client and the server disconnected
+    * The operation continue to run on the server, but the result was not needed anymore
+* The client cancel or abandon the request, wasting the server resource
 
-Definition of long running transaction:
+> Definition of long running transaction:
 
-* [Microsoft](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#13-long-running-operations)
+> * [Microsoft](https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md#13-long-running-operations)
 
+# 2. Constrain
 
-# 2. Approach
+* The long-running operation transaction should have a mechanism to be cancelled in case of the result was no longer needed.
 
-## 2.1. Server-side timeout (Request timeout)
+# 3. Approaches
 
-We could use pipe and filter architecture to implement a default timeout to every response. The developer has the choice to modify the timeout for specific response.
+## 3.1. Circuit Breaker Pattern
 
-### 2.1.1. Middleware in asp.net
+Not really, this pattern was designed to prevent repeated call to an operation that is likely to fail and usually employed in microservices architecture
 
-In `asp.net core` web programming framework, the request - response already applied pipe and filter architecture.
+> More information:
+> * https://www.ibm.com/garage/method/practices/manage/> practice_circuit_breaker_pattern
+> * https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
+> * Original idea from [Release It!](https://pragprog.com/titles/mnee2/> release-it-second-edition/) book
 
-![pipelines](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/index/_static/request-delegate-pipeline.png?view=aspnetcore-5.0)
+## 3.2. Timeout
 
-> source: [https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-5.0](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-5.0)
+The long running operation will have a timeout predefined by the developer. When the time is up, the operation will be cancelled.
 
-To implement a default timeout in asp.net core, simply create a new middleware that add timeout header to response.
+## 3.3. Asynchronous Request-Reply pattern (HTTP Polling)
 
-```csharp
-public class Startup
-{
-    public void Configure(IApplicationBuilder app)
-    {
-        app.Use(async (context, next) =>
-        {
-            // Do work that doesn't write to the Response.
-            await next.Invoke();
-            // Do logging or other work that doesn't write to the Response.
-        });
+This pattern will require some extra work from the client
 
-        app.Run(async context =>
-        {
-            await context.Response.WriteAsync("Hello from 2nd delegate.");
-        });
-    }
-}
-```
+1. When the client send the request that trigger a long running operation, the server will response as quick as possible with `202 Accepted` HTTP code.
+2. The server continue it long running operation, while the client periodically polling for the result
+3. When the result available, the polling will return with `302 Found` HTTP code with the URI for the result
+4. The client send a `GET` request to get the result
 
-### Java Spring Interceptor
+![diagram](https://docs.microsoft.com/en-us/azure/architecture/patterns/_images/async-request.png)
 
-> https://www.journaldev.com/2676/spring-mvc-interceptor-example-handlerinterceptor-handlerinterceptoradapter
+Source: https://docs.microsoft.com/en-us/azure/architecture/patterns/async-request-reply
