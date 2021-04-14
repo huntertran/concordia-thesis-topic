@@ -1,0 +1,57 @@
+@startuml timeout_disconnect_early
+
+' !pragma teoz true
+
+hide footbox
+
+group initiate
+
+Client -> "API Endpoint" : POST
+activate "API Endpoint"
+Client <- "API Endpoint" : HTTP 202
+"API Endpoint" -> "Status Endpoint" : register for status
+activate "Status Endpoint"
+deactivate "API Endpoint"
+
+end
+
+group polling
+Client -> "Status Endpoint" : GET (polling)
+Client <- "Status Endpoint" : HTTP 202
+|||
+Client -> "Status Endpoint" : GET (polling)
+Client <- "Status Endpoint" : HTTP 202
+|||
+Client -> "Status Endpoint" : GET (polling)
+Client <- "Status Endpoint" : HTTP 202
+destroy Client
+end
+||45||
+
+group termination
+"Status Endpoint" -> "Status Endpoint" : polling timeout
+
+"Status Endpoint" -> "Resource Endpoint" : Terminate operation
+deactivate "Status Endpoint"
+end
+
+' |||
+' Client -> "Status Endpoint" : GET (polling)
+' Client <- "Status Endpoint" : HTTP 202
+' |||
+' Client -> "Status Endpoint" : GET (polling)
+' Client <- "Status Endpoint" : HTTP 302
+' deactivate "Status Endpoint"
+
+
+
+' group get result
+
+' Client -> "Resource Endpoint" : GET
+' activate "Resource Endpoint"
+' Client <- "Resource Endpoint" : HTTP 200
+' deactivate "Resource Endpoint"
+
+' end
+
+@enduml
