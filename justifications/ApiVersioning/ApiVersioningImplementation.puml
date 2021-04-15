@@ -45,4 +45,9 @@ note left of V2Logic::oldV1Logic
     oldV1Logic.actionB()
 endnote
 
+note as N1
+UML arrow specification
+<img:legends.svg>
+endnote
+
 @enduml
