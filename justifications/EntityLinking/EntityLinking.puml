@@ -1,0 +1,40 @@
+@startuml entity_linking
+
+hide empty members
+' skinparam linetype ortho
+
+interface ResourceVisitor {
+    visitRelatedResourceA(e)
+    visitRelatedResourceB(e)
+}
+
+class ResourceVisitorImpl {
+    +visitRelatedResourceA(e)
+    +visitRelatedResourceB(e)
+}
+
+ResourceVisitorImpl ..> ResourceVisitor : implements
+
+interface LinkedResource {
+    accept(resourceVisitor)
+}
+
+class RelatedResourceA {
+    +accept(resourceVisitor)
+}
+
+class RelatedResourceB {
+    +accept(resourceVisitor)
+}
+
+RelatedResourceA ..> LinkedResource : implements
+RelatedResourceB ..> LinkedResource : implements
+
+class Client
+object ObjectStructure
+
+Client --> LinkedResource : use
+Client --> ObjectStructure : use
+ObjectStructure --> ResourceVisitor : use
+
+@enduml
