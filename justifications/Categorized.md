@@ -7,7 +7,7 @@ Categorizing the (anti)-patterns of RESTful API
 |-----------------------------------|-----------------------------------|
 |[Content negotiation](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/ContentNegotiation/ContentNegotiation.md)|Entity Endpoint|
 |[Endpoint redirection](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/EndpointRedirection/EndpointRedirection.md)|Contextless Resource name|
-|Entity Linking                     |Non-hierarchical Nodes             |
+|[Entity Linking](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/EntityLinking/EntityLinking.md)|Non-hierarchical Nodes|
 |[Response caching](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/ResponseCaching/ResponseCaching.md)|Amorphous URI|
 |                                   |Verbless URI                       |
 |                                   |Singularized Nodes                 |
