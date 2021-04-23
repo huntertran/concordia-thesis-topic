@@ -36,7 +36,57 @@ Create a new object. The client should not know the ID of the object. The server
 
 `PATCH` = update part of the object
 
+Most of the database return the number of changed rows as the result of `UPDATE` or `INSERT`
 
 ## 4.2. dotnet with Entity Framework Core
+
+In dotnet, the server connect with database using Entity Framework, an open source Object-Relational Mapper (ORM).
+
+For creating new object from scratch, at the end, if the server want to return the newly created object, it has to query the object.
+
+The sequence diagram for creating new object
+
+<img src="./out/justifications/PostPutPatchReturn/post_put_patch_return.svg"/>
+
+Demo source code
+
+```csharp
+public class DemoController : ControllerBase
+{
+    private readonly MyDbContext _context;
+
+    public DemoController(MyDbContext context)
+    {
+        _context = context;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Create(DemoModel model, bool isReturnObject = false)
+    {
+        _context.DemoModels.Add(model);
+        var isSuccess = await _context.SaveChangesAsync();
+
+        if(isSuccess)
+        {
+            if(isReturnObject)
+            {
+                var returnObject = await _context.DemoModels.SingleOrDefaultAsync(m => m.Id == model.Id);
+
+                return Ok(returnObject);
+            }
+            else
+            {
+                return Ok();
+            }
+        }
+        else
+        {
+            return new HttpStatusCode(500);
+        }
+    }
+}
+```
+
+Entity Framework use object tracking for `UPDATE`, so only the changed part of the object will be translate into `sql` command and send to the database.
 
 ## 4.3. java spring boot with MySql server and MySQL Connector/J

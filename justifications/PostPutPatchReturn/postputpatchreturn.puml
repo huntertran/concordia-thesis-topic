@@ -1,0 +1,25 @@
+@startuml post_put_patch_return
+
+hide empty members
+
+Client --> Controller : POST
+
+activate Controller
+Controller --> Database : create object
+
+activate Database
+Database --> Controller : number of affected record
+deactivate Database
+
+== if client need the object ==
+Controller --> Database : get new object
+activate Database
+Database --> Controller
+deactivate Database
+Controller --> Client : newly created object
+
+== default (client don't need the object) ==
+Controller --> Client : 200 OK
+deactivate Controller
+
+@enduml
