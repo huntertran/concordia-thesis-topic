@@ -18,6 +18,18 @@ This is to confirm with the caller the successful operation, rather than a simpl
 
 # 4. Approaches
 
-## 4.1. dotnet with Entity Framework Core
+## 4.1. POST - PUT - PATCH
 
-## 4.2. java spring boot with MySql server and MySQL Connector/J
+
+
+`POST` = create
+
+`PUT` = create or update the whole object (caller should know the ID of the object)
+
+`PATCH` = update part of the object
+
+
+
+## 4.2. dotnet with Entity Framework Core
+
+## 4.3. java spring boot with MySql server and MySQL Connector/J
