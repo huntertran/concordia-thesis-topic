@@ -20,7 +20,7 @@ This is to confirm with the caller the successful operation, rather than a simpl
 
 ## 4.1. POST - PUT - PATCH
 
-
+[post](https://raw.githubusercontent.com/huntertran/concordia-thesis-topic/ba8692341e9f9b510b57b4aa46f536cf1aea7eb7/justifications/PostPutPatchReturn/POST.svg?token=ABCC6LMXG3MHBNJMWPVSOZ3AQI27M)
 
 `POST` = create
 
