@@ -20,14 +20,21 @@ This is to confirm with the caller the successful operation, rather than a simpl
 
 ## 4.1. POST - PUT - PATCH
 
-[post](https://raw.githubusercontent.com/huntertran/concordia-thesis-topic/ba8692341e9f9b510b57b4aa46f536cf1aea7eb7/justifications/PostPutPatchReturn/POST.svg?token=ABCC6LMXG3MHBNJMWPVSOZ3AQI27M)
+<img src="POST.svg"/>
 
 `POST` = create
 
+Create a new object. The client should not know the ID of the object. The server (or the database) will handling ID creation
+
+<img src="PUT-CREATE.svg"/>
+
+<img src="PUT-UPDATE.svg"/>
+
 `PUT` = create or update the whole object (caller should know the ID of the object)
 
-`PATCH` = update part of the object
+<img src="PATCH.svg"/>
 
+`PATCH` = update part of the object
 
 
 ## 4.2. dotnet with Entity Framework Core
