@@ -1,5 +1,15 @@
 @startuml post_put_patch_return
 
+skinparam backgroundColor #0D1117
+
+skinparam sequence {
+    ArrowColor #ff7b72
+    ArrowFontColor white
+    LifeLineBorderColor #ff7b72
+    ActorBorderColor #ff7b72
+    ParticipantBorderColor #ff7b72
+}
+
 hide empty members
 
 Client --> Controller : POST

@@ -46,7 +46,7 @@ For creating new object from scratch, at the end, if the server want to return t
 
 The sequence diagram for creating new object
 
-<img src="https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/PostPutPatchReturn/post_put_patch_return.svg?raw=true"/>
+<img src="post_put_patch_return.svg"/>
 
 Demo source code
 
