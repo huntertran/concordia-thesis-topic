@@ -57,11 +57,12 @@ If the client was not logging in, the server should not include the link for com
 
 # 3. Approach
 
-To address this problem, we could use [Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern)
+Most of the web framework have annotations to decorates classes and methods to construct the RESTful API URIs. The information putted into the source code itself, not the data at runtime. To address this problem, we could use a modified version of [Visitor pattern](https://en.wikipedia.org/wiki/Visitor_pattern) with language reflection features to access these information.
 
 ![visitor pattern](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/EntityLinking/entity_linking.png?raw=true)
 
-In the above diagram, `RelatedResourceA` and `RelatedResourceB` are other controllers that contain the need resource.
+Description:
+* In the above diagram, `RelatedResource1` and `RelatedResource2` are other controllers that contain the need resources (a, b, c and d fields, or methods with annotations).
 
 By "visit" these controllers, we can use the refection feature of the language to get method and annotation information, then build the corresponding URI for the linked resource.
 

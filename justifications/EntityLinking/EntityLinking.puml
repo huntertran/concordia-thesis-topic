@@ -3,38 +3,60 @@
 hide empty members
 ' skinparam linetype ortho
 
+abstract CommonResourceVisitor {
+
+}
+
 interface ResourceVisitor {
-    visitRelatedResourceA(e)
-    visitRelatedResourceB(e)
+    visit(e)
 }
 
-class ResourceVisitorImpl {
-    +visitRelatedResourceA(e)
-    +visitRelatedResourceB(e)
+class LogicABResourceVisitor {
+    +visit(e)
+    // logic for AB resources
 }
 
-ResourceVisitorImpl ..> ResourceVisitor : implements
+class LogicCDResourceVisitor {
+    +visit(e)
+    // logic for CD resouces
+}
+
+LogicABResourceVisitor ..> ResourceVisitor : implements
+LogicCDResourceVisitor ..> ResourceVisitor : implements
+
+LogicABResourceVisitor --> CommonResourceVisitor : extends
+LogicCDResourceVisitor --> CommonResourceVisitor : extends
 
 interface LinkedResource {
     accept(resourceVisitor)
 }
 
-class RelatedResourceA {
-    +accept(resourceVisitor)
+class RelatedResource1 {
+    + a
+    + b
+    + c
+    + d
+    + accept(resourceVisitor)
 }
 
-class RelatedResourceB {
-    +accept(resourceVisitor)
+class RelatedResource2 {
+    + a
+    + b
+    + c
+    + d
+    + accept(resourceVisitor)
 }
 
-RelatedResourceA ..> LinkedResource : implements
-RelatedResourceB ..> LinkedResource : implements
+RelatedResource1 ..> LinkedResource : implements
+RelatedResource2 ..> LinkedResource : implements
+
+note "Client use array of LinkedResource" as N1
 
 class Client
-object ObjectStructure
 
-Client --> LinkedResource : use
-Client --> ObjectStructure : use
-ObjectStructure --> ResourceVisitor : use
+Client .. N1
+N1 .. LinkedResource
+
+LinkedResource <.. ResourceVisitor : visit
 
 @enduml
