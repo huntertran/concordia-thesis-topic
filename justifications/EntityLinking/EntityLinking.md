@@ -61,10 +61,12 @@ Most of the web framework have annotations to decorates classes and methods to c
 
 ![visitor pattern](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/EntityLinking/entity_linking.png?raw=true)
 
-Description:
-* In the above diagram, `RelatedResource1` and `RelatedResource2` are other controllers that contain the need resources (a, b, c and d fields, or methods with annotations).
+In the above diagram:
+* `RelatedResource1` and `RelatedResource2` are other controllers that contain the need resources (a, b, c and d fields, or methods with annotations).
+* `LogicABResourceVisitor` and `LogicCDResourceVisitor` are the visitor implementation for each type of resources. Separation by resources type allow developer separate the logic to select the needed resources.
+* Abstract class `CommonResourceVisitor` contains the complicated logic for language reflection. By extends this abstract class, the visitor will be more simpler and easier to use (hide the complexity of the language reflection). This could be realize because the web frameworks employ a coding conventions for classes and method annotations, as well as methods name to construct the URIs.
 
-By "visit" these controllers, we can use the refection feature of the language to get method and annotation information, then build the corresponding URI for the linked resource.
+By "visiting" these controllers, `Client` can access the class information and extract the needed data.
 
 ## 3.1. Java Spring boot
 
