@@ -2,5 +2,8 @@
     "cSpell.words": [
         "cachable",
         "redirector"
-    ]
+    ],
+    "plantuml.exportSubFolder": false,
+    "plantuml.exportOutDir": ".",
+    "plantuml.jar": "D:\\Thesis\\tools\\batikAndFop\\plantuml.jar"
 }

@@ -1,5 +1,5 @@
 POST-PUT-PATCH should return the modified object
----
+------------------------------------------------
 
 # 1. Problem
 
@@ -18,7 +18,7 @@ This is to confirm with the caller the successful operation, rather than a simpl
 
 # 4. Approaches
 
-## 4.1. POST - PUT - PATCH
+## 4.1. POST - PUT - PATCH usage
 
 <img src="POST.svg"/>
 
@@ -38,7 +38,19 @@ Create a new object. The client should not know the ID of the object. The server
 
 Most of the database return the number of changed rows as the result of `UPDATE` or `INSERT`
 
-## 4.2. dotnet with Entity Framework Core
+## 4.2. General architecture
+
+To split the logic for database manipulation in a RESTful API service, we could use `Repository` pattern, in combination of `Unit of Work` pattern and `Dependency Injection`.
+
+For each resource, or group of related resources, there will be a repository class that handle CRUD operations. This class will be injected into Controllers using dependency injection.
+
+<img src="repository.svg"/>
+
+The repository classes will handle database operations. For `CREATE` and `UPDATE` operation, the repository should implement an extra check to determine if it should return the newly created/modified object or not.
+
+## 4.3. dotnet with Entity Framework Core
+
+The following implementation will take `Student` as the object to create the repository
 
 In dotnet, the server connect with database using Entity Framework, an open source Object-Relational Mapper (ORM).
 
@@ -89,4 +101,4 @@ public class DemoController : ControllerBase
 
 Entity Framework use object tracking for `UPDATE`, so only the changed part of the object will be translate into `sql` command and send to the database.
 
-## 4.3. java spring boot with MySql server and MySQL Connector/J
+## 4.4. java spring boot with MySql server and MySQL Connector/J

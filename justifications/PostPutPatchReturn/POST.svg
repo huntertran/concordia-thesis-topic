@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="341px" height="81px" viewBox="-0.5 -0.5 341 81"><defs/><g><path d="M 110 40 L 223.63 40" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 228.88 40 L 221.88 43.5 L 223.63 40 L 221.88 36.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 270 0 L 320 0 L 340 40 L 320 80 L 270 80 L 250 40 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/><path d="M 20 0 L 70 0 L 90 40 L 70 80 L 20 80 L 0 40 Z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="all"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="341px" height="81px" viewBox="-0.5 -0.5 341 81" style="background-color: rgb(13, 17, 23);">
+    <defs />
+    <g>
+        <path d="M 110 40 L 223.63 40" fill="none" stroke="#ff7b72" stroke-miterlimit="10" pointer-events="stroke" />
+        <path d="M 228.88 40 L 221.88 43.5 L 223.63 40 L 221.88 36.5 Z" fill="#ff7b72" stroke="#ff7b72" stroke-miterlimit="10" pointer-events="all" />
+        <path d="M 270 0 L 320 0 L 340 40 L 320 80 L 270 80 L 250 40 Z" fill="#ffffff" stroke="#ff7b72" stroke-miterlimit="10" pointer-events="all" />
+        <path d="M 20 0 L 70 0 L 90 40 L 70 80 L 20 80 L 0 40 Z" fill="none" stroke="#ff7b72" stroke-miterlimit="10" stroke-dasharray="3 3" pointer-events="all" />
+    </g>
+</svg>
