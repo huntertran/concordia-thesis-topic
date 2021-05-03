@@ -21,4 +21,7 @@ class ObjectFactory {
 JsonObject --> BaseObject : extends
 XmlObject --> BaseObject : extends
 
+ObjectFactory -[hidden]- XmlObject
+ObjectFactory -[hidden]- JsonObject
+
 @enduml
