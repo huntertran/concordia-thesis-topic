@@ -52,7 +52,7 @@ RelatedResource2 ..> LinkedResource : implements
 
 note "Client use array of LinkedResource" as N1
 
-class Client
+circle Client
 
 Client .. N1
 N1 .. LinkedResource

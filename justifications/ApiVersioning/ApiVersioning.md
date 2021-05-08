@@ -57,4 +57,6 @@ https://localhost.com/api/customers/123?version=1
 
 Inherit from a common abstract class for common logic. Use Proxy design pattern to proxy the call to the old version API.
 
-![simple implementation](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ApiVersioning/ApiVersioning.png?raw=true)
+<img src="api_versioning.svg">
+
+<!-- ![simple implementation](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ApiVersioning/ApiVersioning.png?raw=true) -->

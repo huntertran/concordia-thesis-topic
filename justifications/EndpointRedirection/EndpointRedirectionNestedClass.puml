@@ -1,4 +1,4 @@
-@startuml EndpointRedirectionNestedClass
+@startuml endpoint_redirection_nested_class
 
 hide empty members
 

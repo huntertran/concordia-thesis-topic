@@ -1,4 +1,4 @@
-@startuml EndpointRedirectionExtendClass
+@startuml endpoint_redirection_extended_class
 
 hide empty members
 
