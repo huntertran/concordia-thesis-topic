@@ -27,10 +27,16 @@ package Api {
         }
         class V2Logic {
             -oldV1Logic: V1Logic
+            ..
             +actionC()
             +actionD()
+            ___
+            +actionA()
+            +actionB()
         }
     }
+
+
 }
 
 V1Logic --> CommonLogic
@@ -41,9 +47,9 @@ V2Logic ..> IV1Logic : implement
 
 Client -- V2Logic : call API
 
-note left of V2Logic::oldV1Logic
-    oldV1Logic.actionA()
-    oldV1Logic.actionB()
+note right of V2Logic::oldV1Logic
+oldV1Logic.actionA()
+oldV1Logic.actionB()
 endnote
 
 ' note as N1

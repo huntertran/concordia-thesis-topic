@@ -27,17 +27,19 @@ package Api {
             +actionD()
         }
     }
+
+    note bottom of V1Redirector
+        implement
+        resource mapping
+        mechanism
+    endnote
 }
 
 V1Logic ..> IV1Logic : implement
 V1Redirector ..> IV1Logic : implement
 V2Logic --> V1Redirector : extends
 
-note bottom of V1Redirector
-    implement
-    resource mapping
-    mechanism
-endnote
+
 
 Client ..> V2Logic : call API
 
