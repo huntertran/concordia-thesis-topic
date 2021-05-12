@@ -47,7 +47,7 @@ V2Logic ..> IV1Logic : implement
 
 Client -- V2Logic : call API
 
-note right of V2Logic::oldV1Logic
+note left of V2Logic::oldV1Logic
 oldV1Logic.actionA()
 oldV1Logic.actionB()
 endnote

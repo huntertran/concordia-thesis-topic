@@ -26,7 +26,7 @@ Client -> "Status Endpoint" : GET (polling)
 Client <- "Status Endpoint" : HTTP 202
 destroy Client
 end
-||45||
+||30||
 
 group termination
 "Status Endpoint" -> "Status Endpoint" : polling timeout

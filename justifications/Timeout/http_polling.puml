@@ -1,0 +1,17 @@
+@startuml http_polling
+
+hide footbox
+
+Client -> "API Endpoint" : POST
+Client <- "API Endpoint" : HTTP 202
+|||
+Client -> "Status Endpoint" : GET
+Client <- "Status Endpoint" : HTTP 202
+|||
+Client -> "Status Endpoint" : GET
+Client <- "Status Endpoint" : HTTP 202
+|||
+Client -> "Resource Endpoint" : GET
+Client <- "Resource Endpoint" : HTTP 202
+
+@enduml
