@@ -5,31 +5,34 @@
 ' FF4500
 ' background 0D1117
 
-skinparam backgroundColor transparent
+' skinparam backgroundColor transparent
 
-skinparam ArrowColor #777
-skinparam ArrowFontColor #777
-skinparam PackageBorderColor #777
-skinparam PackageFontColor #777
+' skinparam ArrowColor #777
+' skinparam ArrowFontColor #777
+' skinparam PackageBorderColor #777
+' skinparam PackageFontColor #777
 
-' skinparam ComponentBackgroundColor transparent
-' skinparam ComponentFontColor #777
-skinparam ComponentBorderColor #777
-' skinparam DatabaseBackgroundColor transparent
-' skinparam DatabaseFontColor #777
-skinparam DatabaseBorderColor #777
+' ' skinparam ComponentBackgroundColor transparent
+' ' skinparam ComponentFontColor #777
+' skinparam ComponentBorderColor #777
+' ' skinparam DatabaseBackgroundColor transparent
+' ' skinparam DatabaseFontColor #777
+' skinparam DatabaseBorderColor #777
 
 hide empty members
+' allow_mixing
 
 component Controller
 
-node uow as "Unit of Work" {
+node uow1 as "Unit of Work" {
     component RepositoryA
-
-    component RepositoryB
-
-    component DatabaseConnector
 }
+
+node uow2 as "Unit of Work" {
+    component RepositoryB
+}
+
+component DatabaseConnector
 
 
 database SQL
@@ -37,9 +40,9 @@ database SQL
 
 Controller <.. RepositoryA : inject
 Controller <.. RepositoryB : inject
-RepositoryA <--> DatabaseConnector
-RepositoryB <--> DatabaseConnector
-DatabaseConnector <--> SQL
+RepositoryA .. DatabaseConnector
+RepositoryB .. DatabaseConnector
+DatabaseConnector .. SQL
 
 
 @enduml
