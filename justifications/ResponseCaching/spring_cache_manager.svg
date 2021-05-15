@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="499px" preserveAspectRatio="none" style="width:896px;height:499px;" version="1.1" viewBox="0 0 896 499" width="896px" zoomAndPan="magnify"><defs><filter height="300%" id="fwb9cyti1en7e" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6e2bc53f2b489a463b0855903b315b97]
+cluster cache--><polygon fill="#FFFFFF" filter="url(#fwb9cyti1en7e)" points="16,6,64,6,71,29.6094,879,29.6094,879,492,16,492,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="71" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="42" x="20" y="22.5332">cache</text><!--MD5=[4a77e03bc18691b8919b6eaee68b6397]
+cluster support--><polygon fill="#FFFFFF" filter="url(#fwb9cyti1en7e)" points="661,191,722,191,729,214.6094,855,214.6094,855,378,661,378,661,191" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="661" x2="729" y1="214.6094" y2="214.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="665" y="207.5332">support</text><!--MD5=[f9c58d90839a0c7c212d8c6553ac9eb7]
+cluster transaction--><polygon fill="#FFFFFF" filter="url(#fwb9cyti1en7e)" points="40,180,125,180,132,203.6094,637,203.6094,637,286,40,286,40,180" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="132" y1="203.6094" y2="203.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="44" y="196.5332">transaction</text><!--MD5=[44bad1b5f93772f9fb8a214ca1b63b12]
+cluster ehcache--><polygon fill="#FFFFFF" filter="url(#fwb9cyti1en7e)" points="455,50,521,50,528,73.6094,737,73.6094,737,156,455,156,455,50" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="455" x2="528" y1="73.6094" y2="73.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="60" x="459" y="66.5332">ehcache</text><!--MD5=[4e763d49520694dc2e28edf535ca4f9a]
+cluster jcache--><polygon fill="#FFFFFF" filter="url(#fwb9cyti1en7e)" points="225,50,277,50,284,73.6094,431,73.6094,431,156,225,156,225,50" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="225" x2="284" y1="73.6094" y2="73.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="46" x="229" y="66.5332">jcache</text><!--MD5=[3a2c0e4a876ac95f400f5bc00e05a8ed]
+class CacheManager--><rect codeLine="6" fill="#FEFECE" filter="url(#fwb9cyti1en7e)" height="53.8359" id="CacheManager" style="stroke:#A80036;stroke-width:1.5;" width="151" x="537.5" y="422"/><ellipse cx="568.25" cy="438" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M569.2031,434.6406 L569.2031,441.2969 L570.9219,441.2969 Q571.5313,441.2969 571.7969,441.5313 Q572.0625,441.7656 572.0625,442.1563 Q572.0625,442.5313 571.7969,442.7656 Q571.5313,443 570.9219,443 L565.7813,443 Q565.1719,443 564.9063,442.7656 Q564.6406,442.5313 564.6406,442.1406 Q564.6406,441.7656 564.9063,441.5313 Q565.1719,441.2969 565.7813,441.2969 L567.5,441.2969 L567.5,434.6406 L565.7813,434.6406 Q565.1719,434.6406 564.9063,434.4063 Q564.6406,434.1719 564.6406,433.7813 Q564.6406,433.4063 564.9063,433.1719 Q565.1719,432.9375 565.7813,432.9375 L570.9219,432.9375 Q571.5313,432.9375 571.7969,433.1719 Q572.0625,433.4063 572.0625,433.7813 Q572.0625,434.1719 571.7969,434.4063 Q571.5313,434.6406 570.9219,434.6406 L569.2031,434.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="84" x="585.75" y="442.9102">CacheManager</text><line style="stroke:#A80036;stroke-width:1.5;" x1="538.5" x2="687.5" y1="454" y2="454"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="543.5" y="469.4189">getCache(String key): Cache</text><!--MD5=[35d80bc61dd8ba8fc7cdf6395da0eaca]
+class AbstractCacheManager--><rect codeLine="15" fill="#FEFECE" filter="url(#fwb9cyti1en7e)" height="32" id="AbstractCacheManager" style="stroke:#A80036;stroke-width:1.5;" width="161" x="677.5" y="330"/><ellipse cx="692.5" cy="346" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M694.6875,347.7656 L690.5469,347.7656 L690.125,348.7969 L690.5469,348.7969 Q691.1563,348.7969 691.4219,349.0313 Q691.6875,349.2656 691.6875,349.6563 Q691.6875,350.0313 691.4219,350.2656 Q691.1563,350.5 690.5469,350.5 L688.25,350.5 Q687.6406,350.5 687.3906,350.2656 Q687.125,350.0313 687.125,349.6406 Q687.125,349.2656 687.4063,349.0313 Q687.6719,348.7813 688.2969,348.7969 L690.9688,342.1406 L689.8594,342.1406 Q689.25,342.1406 688.9844,341.9063 Q688.7188,341.6719 688.7188,341.2813 Q688.7188,340.9063 688.9844,340.6719 Q689.25,340.4375 689.8594,340.4375 L693.5313,340.4375 L696.9219,348.7969 Q697.5156,348.7969 697.7031,348.9375 Q698.0938,349.2031 698.0938,349.6563 Q698.0938,350.0313 697.8281,350.2656 Q697.5781,350.5 696.9688,350.5 L694.6719,350.5 Q694.0625,350.5 693.7969,350.2656 Q693.5313,350.0313 693.5313,349.6406 Q693.5313,349.2656 693.7969,349.0313 Q694.0625,348.7969 694.6719,348.7969 L695.0938,348.7969 L694.6875,347.7656 Z M693.9688,346.0625 L692.6094,342.6875 L691.2344,346.0625 L693.9688,346.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="129" x="706.5" y="350.9102">AbstractCacheManager</text><!--MD5=[61a3e2b233134ed8154adc05eba98b7f]
+class SimpleCacheManager--><rect codeLine="18" fill="#FEFECE" filter="url(#fwb9cyti1en7e)" height="32" id="SimpleCacheManager" style="stroke:#A80036;stroke-width:1.5;" width="155" x="680.5" y="227"/><ellipse cx="695.5" cy="243" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M698.2656,238.875 Q698.4219,238.6563 698.6094,238.5469 Q698.7969,238.4375 699.0156,238.4375 Q699.3906,238.4375 699.625,238.7031 Q699.8594,238.9531 699.8594,239.5625 L699.8594,241.0156 Q699.8594,241.625 699.625,241.8906 Q699.3906,242.1563 699.0156,242.1563 Q698.6719,242.1563 698.4688,241.9531 Q698.2656,241.7656 698.1563,241.25 Q698.1094,240.8906 697.9219,240.7031 Q697.5938,240.3281 696.9844,240.1094 Q696.375,239.8906 695.75,239.8906 Q694.9844,239.8906 694.3438,240.2188 Q693.7188,240.5469 693.2188,241.2969 Q692.7344,242.0469 692.7344,243.0781 L692.7344,244.1719 Q692.7344,245.4063 693.625,246.2344 Q694.5156,247.0469 696.1094,247.0469 Q697.0469,247.0469 697.7031,246.7969 Q698.0938,246.6406 698.5156,246.2031 Q698.7813,245.9375 698.9219,245.8594 Q699.0781,245.7813 699.2813,245.7813 Q699.6094,245.7813 699.8594,246.0469 Q700.125,246.2969 700.125,246.6406 Q700.125,246.9844 699.7813,247.3906 Q699.2813,247.9688 698.4844,248.2969 Q697.4063,248.75 696.1094,248.75 Q694.5938,248.75 693.3906,248.125 Q692.4063,247.625 691.7188,246.5625 Q691.0313,245.4844 691.0313,244.2031 L691.0313,243.0469 Q691.0313,241.7188 691.6406,240.5781 Q692.2656,239.4219 693.3594,238.8125 Q694.4531,238.1875 695.6875,238.1875 Q696.4219,238.1875 697.0625,238.3594 Q697.7188,238.5156 698.2656,238.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="709.5" y="247.9102">SimpleCacheManager</text><!--MD5=[4c3c9ea8c98741641f16e63b2c26c897]
+class AbstractTransactionSupportingCacheManager--><rect codeLine="22" fill="#FEFECE" filter="url(#fwb9cyti1en7e)" height="32" id="AbstractTransactionSupportingCacheManager" style="stroke:#A80036;stroke-width:1.5;" width="285" x="335.5" y="227"/><ellipse cx="350.5" cy="243" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M352.6875,244.7656 L348.5469,244.7656 L348.125,245.7969 L348.5469,245.7969 Q349.1563,245.7969 349.4219,246.0313 Q349.6875,246.2656 349.6875,246.6563 Q349.6875,247.0313 349.4219,247.2656 Q349.1563,247.5 348.5469,247.5 L346.25,247.5 Q345.6406,247.5 345.3906,247.2656 Q345.125,247.0313 345.125,246.6406 Q345.125,246.2656 345.4063,246.0313 Q345.6719,245.7813 346.2969,245.7969 L348.9688,239.1406 L347.8594,239.1406 Q347.25,239.1406 346.9844,238.9063 Q346.7188,238.6719 346.7188,238.2813 Q346.7188,237.9063 346.9844,237.6719 Q347.25,237.4375 347.8594,237.4375 L351.5313,237.4375 L354.9219,245.7969 Q355.5156,245.7969 355.7031,245.9375 Q356.0938,246.2031 356.0938,246.6563 Q356.0938,247.0313 355.8281,247.2656 Q355.5781,247.5 354.9688,247.5 L352.6719,247.5 Q352.0625,247.5 351.7969,247.2656 Q351.5313,247.0313 351.5313,246.6406 Q351.5313,246.2656 351.7969,246.0313 Q352.0625,245.7969 352.6719,245.7969 L353.0938,245.7969 L352.6875,244.7656 Z M351.9688,243.0625 L350.6094,239.6875 L349.2344,243.0625 L351.9688,243.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="253" x="364.5" y="247.9102">AbstractTransactionSupportingCacheManager</text><!--MD5=[75e8009c4d37284cefa1dedfdcc9a726]
+class TransactionAwareCacheManagerProxy--><rect codeLine="23" fill="#FEFECE" filter="url(#fwb9cyti1en7e)" height="53.8359" id="TransactionAwareCacheManagerProxy" style="stroke:#A80036;stroke-width:1.5;" width="244" x="56" y="216"/><ellipse cx="71" cy="232" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M73.7656,227.875 Q73.9219,227.6563 74.1094,227.5469 Q74.2969,227.4375 74.5156,227.4375 Q74.8906,227.4375 75.125,227.7031 Q75.3594,227.9531 75.3594,228.5625 L75.3594,230.0156 Q75.3594,230.625 75.125,230.8906 Q74.8906,231.1563 74.5156,231.1563 Q74.1719,231.1563 73.9688,230.9531 Q73.7656,230.7656 73.6563,230.25 Q73.6094,229.8906 73.4219,229.7031 Q73.0938,229.3281 72.4844,229.1094 Q71.875,228.8906 71.25,228.8906 Q70.4844,228.8906 69.8438,229.2188 Q69.2188,229.5469 68.7188,230.2969 Q68.2344,231.0469 68.2344,232.0781 L68.2344,233.1719 Q68.2344,234.4063 69.125,235.2344 Q70.0156,236.0469 71.6094,236.0469 Q72.5469,236.0469 73.2031,235.7969 Q73.5938,235.6406 74.0156,235.2031 Q74.2813,234.9375 74.4219,234.8594 Q74.5781,234.7813 74.7813,234.7813 Q75.1094,234.7813 75.3594,235.0469 Q75.625,235.2969 75.625,235.6406 Q75.625,235.9844 75.2813,236.3906 Q74.7813,236.9688 73.9844,237.2969 Q72.9063,237.75 71.6094,237.75 Q70.0938,237.75 68.8906,237.125 Q67.9063,236.625 67.2188,235.5625 Q66.5313,234.4844 66.5313,233.2031 L66.5313,232.0469 Q66.5313,230.7188 67.1406,229.5781 Q67.7656,228.4219 68.8594,227.8125 Q69.9531,227.1875 71.1875,227.1875 Q71.9219,227.1875 72.5625,227.3594 Q73.2188,227.5156 73.7656,227.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="212" x="85" y="236.9102">TransactionAwareCacheManagerProxy</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57" x2="299" y1="248" y2="248"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="64" y="256"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="76" y="263.4189">targetCacheManager:CacheManager</text><!--MD5=[4d63167f993d0ac35046e5b859bf64fc]
+class EhCacheCacheManager--><rect codeLine="29" fill="#FEFECE" filter="url(#fwb9cyti1en7e)" height="53.8359" id="EhCacheCacheManager" style="stroke:#A80036;stroke-width:1.5;" width="250" x="471" y="86"/><ellipse cx="524.25" cy="102" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M527.0156,97.875 Q527.1719,97.6563 527.3594,97.5469 Q527.5469,97.4375 527.7656,97.4375 Q528.1406,97.4375 528.375,97.7031 Q528.6094,97.9531 528.6094,98.5625 L528.6094,100.0156 Q528.6094,100.625 528.375,100.8906 Q528.1406,101.1563 527.7656,101.1563 Q527.4219,101.1563 527.2188,100.9531 Q527.0156,100.7656 526.9063,100.25 Q526.8594,99.8906 526.6719,99.7031 Q526.3438,99.3281 525.7344,99.1094 Q525.125,98.8906 524.5,98.8906 Q523.7344,98.8906 523.0938,99.2188 Q522.4688,99.5469 521.9688,100.2969 Q521.4844,101.0469 521.4844,102.0781 L521.4844,103.1719 Q521.4844,104.4063 522.375,105.2344 Q523.2656,106.0469 524.8594,106.0469 Q525.7969,106.0469 526.4531,105.7969 Q526.8438,105.6406 527.2656,105.2031 Q527.5313,104.9375 527.6719,104.8594 Q527.8281,104.7813 528.0313,104.7813 Q528.3594,104.7813 528.6094,105.0469 Q528.875,105.2969 528.875,105.6406 Q528.875,105.9844 528.5313,106.3906 Q528.0313,106.9688 527.2344,107.2969 Q526.1563,107.75 524.8594,107.75 Q523.3438,107.75 522.1406,107.125 Q521.1563,106.625 520.4688,105.5625 Q519.7813,104.4844 519.7813,103.2031 L519.7813,102.0469 Q519.7813,100.7188 520.3906,99.5781 Q521.0156,98.4219 522.1094,97.8125 Q523.2031,97.1875 524.4375,97.1875 Q525.1719,97.1875 525.8125,97.3594 Q526.4688,97.5156 527.0156,97.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="544.75" y="106.9102">EhCacheCacheManager</text><line style="stroke:#A80036;stroke-width:1.5;" x1="472" x2="720" y1="118" y2="118"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="479" y="126"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="224" x="491" y="133.4189">cacheManager:net.sf.ehcache.CacheManager</text><!--MD5=[e27e2412c38949387bdcd89bbb52d09a]
+class JCacheCacheManager--><rect codeLine="35" fill="#FEFECE" filter="url(#fwb9cyti1en7e)" height="53.8359" id="JCacheCacheManager" style="stroke:#A80036;stroke-width:1.5;" width="174" x="241" y="86"/><ellipse cx="263.2" cy="102" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M265.9656,97.875 Q266.1219,97.6563 266.3094,97.5469 Q266.4969,97.4375 266.7156,97.4375 Q267.0906,97.4375 267.325,97.7031 Q267.5594,97.9531 267.5594,98.5625 L267.5594,100.0156 Q267.5594,100.625 267.325,100.8906 Q267.0906,101.1563 266.7156,101.1563 Q266.3719,101.1563 266.1688,100.9531 Q265.9656,100.7656 265.8563,100.25 Q265.8094,99.8906 265.6219,99.7031 Q265.2938,99.3281 264.6844,99.1094 Q264.075,98.8906 263.45,98.8906 Q262.6844,98.8906 262.0438,99.2188 Q261.4188,99.5469 260.9188,100.2969 Q260.4344,101.0469 260.4344,102.0781 L260.4344,103.1719 Q260.4344,104.4063 261.325,105.2344 Q262.2156,106.0469 263.8094,106.0469 Q264.7469,106.0469 265.4031,105.7969 Q265.7938,105.6406 266.2156,105.2031 Q266.4813,104.9375 266.6219,104.8594 Q266.7781,104.7813 266.9813,104.7813 Q267.3094,104.7813 267.5594,105.0469 Q267.825,105.2969 267.825,105.6406 Q267.825,105.9844 267.4813,106.3906 Q266.9813,106.9688 266.1844,107.2969 Q265.1063,107.75 263.8094,107.75 Q262.2938,107.75 261.0906,107.125 Q260.1063,106.625 259.4188,105.5625 Q258.7313,104.4844 258.7313,103.2031 L258.7313,102.0469 Q258.7313,100.7188 259.3406,99.5781 Q259.9656,98.4219 261.0594,97.8125 Q262.1531,97.1875 263.3875,97.1875 Q264.1219,97.1875 264.7625,97.3594 Q265.4188,97.5156 265.9656,97.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="126" x="278.8" y="106.9102">JCacheCacheManager</text><line style="stroke:#A80036;stroke-width:1.5;" x1="242" x2="414" y1="118" y2="118"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="249" y="126"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="261" y="133.4189">cacheManager:CacheManager</text><!--MD5=[0bf017ff14013851dd343e23f34ed110]
+link AbstractCacheManager to CacheManager--><path codeLine="45" d="M736.29,362.12 C714.77,377.11 681.24,400.46 654.58,419.03 " fill="none" id="AbstractCacheManager-to-CacheManager" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="650.37,421.97,660.0409,420.1061,654.4722,419.1113,655.467,413.5426,650.37,421.97" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aa56faf0293d959b4836b1f0f42f0d0b]
+link SimpleCacheManager to AbstractCacheManager--><path codeLine="48" d="M758,259.34 C758,276.79 758,305.37 758,324.67 " fill="none" id="SimpleCacheManager-to-AbstractCacheManager" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="758,329.85,762,320.85,758,324.85,754,320.85,758,329.85" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6c0400fd599557baa7cd34880929554c]
+link AbstractTransactionSupportingCacheManager to AbstractCacheManager--><path codeLine="49" d="M519.62,259.01 C570.93,277.52 657.9,308.89 711.4,328.19 " fill="none" id="AbstractTransactionSupportingCacheManager-to-AbstractCacheManager" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="716.16,329.91,709.0505,323.0942,711.4565,328.2139,706.3368,330.6198,716.16,329.91" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a2ad95ccad61bc8048519481c0149d9d]
+link JCacheCacheManager to AbstractTransactionSupportingCacheManager--><path codeLine="50" d="M358.72,140.21 C387.68,164.93 430.37,201.36 456.05,223.27 " fill="none" id="JCacheCacheManager-to-AbstractTransactionSupportingCacheManager" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="460.03,226.66,455.7641,217.7829,456.2207,223.4213,450.5823,223.8779,460.03,226.66" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9dbc5006235d51197aec308ec379f8c2]
+link EhCacheCacheManager to AbstractTransactionSupportingCacheManager--><path codeLine="51" d="M571.84,140.21 C549.24,164.72 516.02,200.76 495.77,222.73 " fill="none" id="EhCacheCacheManager-to-AbstractTransactionSupportingCacheManager" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="492.14,226.66,501.1743,222.738,495.5225,222.9778,495.2827,217.326,492.14,226.66" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d8fadd17b6c3b0a53942519452bd4b49]
+link TransactionAwareCacheManagerProxy to CacheManager--><path codeLine="52" d="M233.53,270.04 C315.47,308.47 468.16,380.08 552.73,419.74 " fill="none" id="TransactionAwareCacheManagerProxy-to-CacheManager" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="557.45,421.95,551.0064,414.5015,552.9249,419.8231,547.6033,421.7416,557.45,421.95" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[632862efbce213a2c095191a247c29d2]
+@startuml spring_cache_manager
+
+hide empty members
+
+package cache {
+    ' interface Cache
+    interface CacheManager {
+        getCache(String key): Cache
+    }
+
+    ' package concurrent {
+    '     class ConcurrentMapCacheManager
+    ' }
+
+    package support {
+        abstract AbstractCacheManager
+        ' class CompositeCacheManager
+        ' class NoOpCacheManager
+        class SimpleCacheManager
+    }
+
+    package transaction {
+        abstract AbstractTransactionSupportingCacheManager
+        class TransactionAwareCacheManagerProxy {
+            -targetCacheManager:CacheManager
+        }
+    }
+
+    package ehcache {
+        class EhCacheCacheManager {
+            -cacheManager:net.sf.ehcache.CacheManager
+        }
+    }
+
+    package jcache {
+        class JCacheCacheManager {
+            -cacheManager:CacheManager
+        }
+    }
+}
+
+' ConcurrentMapCacheManager ..> CacheManager
+' ConcurrentMapCacheManager - -> Cache
+' CacheManager ..> Cache
+
+AbstractCacheManager ..> CacheManager
+' CompositeCacheManager - -> CacheManager
+' NoOpCacheManager - -> CacheManager
+SimpleCacheManager - -> AbstractCacheManager
+AbstractTransactionSupportingCacheManager - -> AbstractCacheManager
+JCacheCacheManager - -> AbstractTransactionSupportingCacheManager
+EhCacheCacheManager - -> AbstractTransactionSupportingCacheManager
+TransactionAwareCacheManagerProxy ..> CacheManager
+
+@enduml
+
+@startuml spring_cache_manager
+
+hide empty members
+
+package cache {
+    interface CacheManager {
+        getCache(String key): Cache
+    }
+
+
+    package support {
+        abstract AbstractCacheManager
+        class SimpleCacheManager
+    }
+
+    package transaction {
+        abstract AbstractTransactionSupportingCacheManager
+        class TransactionAwareCacheManagerProxy {
+            -targetCacheManager:CacheManager
+        }
+    }
+
+    package ehcache {
+        class EhCacheCacheManager {
+            -cacheManager:net.sf.ehcache.CacheManager
+        }
+    }
+
+    package jcache {
+        class JCacheCacheManager {
+            -cacheManager:CacheManager
+        }
+    }
+}
+
+
+AbstractCacheManager ..> CacheManager
+SimpleCacheManager - -> AbstractCacheManager
+AbstractTransactionSupportingCacheManager - -> AbstractCacheManager
+JCacheCacheManager - -> AbstractTransactionSupportingCacheManager
+EhCacheCacheManager - -> AbstractTransactionSupportingCacheManager
+TransactionAwareCacheManagerProxy ..> CacheManager
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 07:20:28 EDT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

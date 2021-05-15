@@ -1,4 +1,4 @@
-@startuml InMemoryCaching
+@startuml in_memory_caching
 
 hide empty members
 

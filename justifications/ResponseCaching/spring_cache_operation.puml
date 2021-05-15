@@ -1,4 +1,4 @@
-@startuml CacheOperationSpringFramework
+@startuml spring_cache_operation
 
 hide empty members
 

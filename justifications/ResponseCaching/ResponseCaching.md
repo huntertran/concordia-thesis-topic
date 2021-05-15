@@ -17,7 +17,7 @@ Response Caching
 
 ## 2.1. Choose the layer to implement caching
 
-![layers](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ResponseCaching/layers.png?raw=true)
+<img src="layers.svg">
 
 The caching mechanism can be implemented in any of these layers. Usually, developer choose to implement caching using a Proxy Server for easy scaling, separate of concern and easy management.
 
@@ -54,6 +54,8 @@ The caching mechanism can be implemented in any of these layers. Usually, develo
 
 The caching component is placed directly in the application (aka running on the same host as the application). This approach is simpler to implement, but was not recommended since it could slow down the application and difficult to scale.
 
+<img src="in_memory_caching.svg">
+
 2. Use a proxy server for caching (Distributed Caching)
 
 Using a proxy server is more complicated in term of implementation and deployment. This approach is easy to scale, and developers could choose / swap multiple caching technology base on their need.
@@ -75,7 +77,7 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
 
 **Cache Manager**
 
-![CacheManager](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ResponseCaching/SpringCacheManager.png?raw=true)
+<img src="spring_cache_manager.svg">
 
 * Proxy design pattern:
     * All the adapted caching solutions will support the same built-in awareness of Spring-managed transactions.
@@ -83,7 +85,7 @@ The Java `Spring Framework` applied multiple design patterns for Caching feature
 
 **Cache Operation**
 
-![CacheOperation](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/ResponseCaching/CacheOperationSpringFramework.png?raw=true)
+<img src="spring_cache_operation.svg">
 
 * Strategy design pattern
     * Each cache operations will handle the transaction differently

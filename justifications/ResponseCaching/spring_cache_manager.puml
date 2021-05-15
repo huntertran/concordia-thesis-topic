@@ -1,4 +1,4 @@
-@startuml SpringCacheManager
+@startuml spring_cache_manager
 
 hide empty members
 
