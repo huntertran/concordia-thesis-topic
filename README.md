@@ -212,4 +212,5 @@ Approach
 ## Surveys
 <a id="markdown-surveys" name="surveys"></a>
 
-* Part A Preview: [https://www.surveymonkey.com/r/Preview/?sm=JzpbXlXIkQLWzE3lEKrkRP3PeVsU6Z7nM11U0jo5jLGFIj2CQxaC0n8jPLmMoRxJ](https://www.surveymonkey.com/r/Preview/?sm=JzpbXlXIkQLWzE3lEKrkRP3PeVsU6Z7nM11U0jo5jLGFIj2CQxaC0n8jPLmMoRxJ)
+* Review: [https://www.surveymonkey.com/r/Preview/?sm=JzpbXlXIkQLWzE3lEKrkRP3PeVsU6Z7nM11U0jo5jLGFIj2CQxaC0n8jPLmMoRxJ](https://www.surveymonkey.com/r/Preview/?sm=JzpbXlXIkQLWzE3lEKrkRP3PeVsU6Z7nM11U0jo5jLGFIj2CQxaC0n8jPLmMoRxJ)
+* Link: [https://www.surveymonkey.com/r/rest-api-designing-best-practices](https://www.surveymonkey.com/r/rest-api-designing-best-practices)
