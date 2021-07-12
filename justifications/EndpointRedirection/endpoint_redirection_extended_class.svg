@@ -1,16 +1,580 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="619px" preserveAspectRatio="none" style="width:502px;height:619px;" version="1.1" viewBox="0 0 502 619" width="502px" zoomAndPan="magnify"><defs><filter height="300%" id="fgddwr1qk1ty5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[7058f338f099d236033fc5161613b206]
-cluster Api--><polygon fill="#FFFFFF" filter="url(#fgddwr1qk1ty5)" points="16,108,44,108,51,131.6094,353,131.6094,353,612,16,612,16,108" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="51" y1="131.6094" y2="131.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="20" y="124.5332">Api</text><!--MD5=[9a32cd3984fdd08205638aa42968fc5c]
-cluster v1--><polygon fill="#FFFFFF" filter="url(#fgddwr1qk1ty5)" points="40,320,63,320,70,343.6094,169,343.6094,169,588,40,588,40,320" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="70" y1="343.6094" y2="343.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="17" x="44" y="336.5332">v1</text><!--MD5=[8f568eda7f993736a9f8e47c0c4df829]
-cluster v2--><polygon fill="#FFFFFF" filter="url(#fgddwr1qk1ty5)" points="193,152,216,152,223,175.6094,329,175.6094,329,440,193,440,193,152" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="193" x2="223" y1="175.6094" y2="175.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="17" x="197" y="168.5332">v2</text><!--MD5=[9319f6a29b119d01e1f5b6d1a6e1c87d]
-class IV1Logic--><rect codeLine="9" fill="#FEFECE" filter="url(#fgddwr1qk1ty5)" height="67.6719" id="IV1Logic" style="stroke:#A80036;stroke-width:1.5;" width="81" x="63.5" y="504"/><ellipse cx="78.5" cy="520" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M79.4531,516.6406 L79.4531,523.2969 L81.1719,523.2969 Q81.7813,523.2969 82.0469,523.5313 Q82.3125,523.7656 82.3125,524.1563 Q82.3125,524.5313 82.0469,524.7656 Q81.7813,525 81.1719,525 L76.0313,525 Q75.4219,525 75.1563,524.7656 Q74.8906,524.5313 74.8906,524.1406 Q74.8906,523.7656 75.1563,523.5313 Q75.4219,523.2969 76.0313,523.2969 L77.75,523.2969 L77.75,516.6406 L76.0313,516.6406 Q75.4219,516.6406 75.1563,516.4063 Q74.8906,516.1719 74.8906,515.7813 Q74.8906,515.4063 75.1563,515.1719 Q75.4219,514.9375 76.0313,514.9375 L81.1719,514.9375 Q81.7813,514.9375 82.0469,515.1719 Q82.3125,515.4063 82.3125,515.7813 Q82.3125,516.1719 82.0469,516.4063 Q81.7813,516.6406 81.1719,516.6406 L79.4531,516.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="49" x="92.5" y="524.9102">IV1Logic</text><line style="stroke:#A80036;stroke-width:1.5;" x1="64.5" x2="143.5" y1="536" y2="536"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="69.5" y="551.4189">actionA()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="69.5" y="565.2549">actionB()</text><!--MD5=[79864ccd20def053537427cdd976eaa6]
-class V1Logic--><rect codeLine="13" fill="#FEFECE" filter="url(#fgddwr1qk1ty5)" height="67.6719" id="V1Logic" style="stroke:#A80036;stroke-width:1.5;" width="76" x="56" y="356"/><ellipse cx="71" cy="372" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M73.7656,367.875 Q73.9219,367.6563 74.1094,367.5469 Q74.2969,367.4375 74.5156,367.4375 Q74.8906,367.4375 75.125,367.7031 Q75.3594,367.9531 75.3594,368.5625 L75.3594,370.0156 Q75.3594,370.625 75.125,370.8906 Q74.8906,371.1563 74.5156,371.1563 Q74.1719,371.1563 73.9688,370.9531 Q73.7656,370.7656 73.6563,370.25 Q73.6094,369.8906 73.4219,369.7031 Q73.0938,369.3281 72.4844,369.1094 Q71.875,368.8906 71.25,368.8906 Q70.4844,368.8906 69.8438,369.2188 Q69.2188,369.5469 68.7188,370.2969 Q68.2344,371.0469 68.2344,372.0781 L68.2344,373.1719 Q68.2344,374.4063 69.125,375.2344 Q70.0156,376.0469 71.6094,376.0469 Q72.5469,376.0469 73.2031,375.7969 Q73.5938,375.6406 74.0156,375.2031 Q74.2813,374.9375 74.4219,374.8594 Q74.5781,374.7813 74.7813,374.7813 Q75.1094,374.7813 75.3594,375.0469 Q75.625,375.2969 75.625,375.6406 Q75.625,375.9844 75.2813,376.3906 Q74.7813,376.9688 73.9844,377.2969 Q72.9063,377.75 71.6094,377.75 Q70.0938,377.75 68.8906,377.125 Q67.9063,376.625 67.2188,375.5625 Q66.5313,374.4844 66.5313,373.2031 L66.5313,372.0469 Q66.5313,370.7188 67.1406,369.5781 Q67.7656,368.4219 68.8594,367.8125 Q69.9531,367.1875 71.1875,367.1875 Q71.9219,367.1875 72.5625,367.3594 Q73.2188,367.5156 73.7656,367.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="85" y="376.9102">V1Logic</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57" x2="131" y1="388" y2="388"/><ellipse cx="67" cy="399" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="76" y="403.4189">actionA()</text><ellipse cx="67" cy="412.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="76" y="417.2549">actionB()</text><!--MD5=[f0f371c9723ea81dc4e31895b1cd902c]
-class V1Redirector--><rect codeLine="20" fill="#FEFECE" filter="url(#fgddwr1qk1ty5)" height="67.6719" id="V1Redirector" style="stroke:#A80036;stroke-width:1.5;" width="103" x="209.5" y="356"/><ellipse cx="224.5" cy="372" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M227.2656,367.875 Q227.4219,367.6563 227.6094,367.5469 Q227.7969,367.4375 228.0156,367.4375 Q228.3906,367.4375 228.625,367.7031 Q228.8594,367.9531 228.8594,368.5625 L228.8594,370.0156 Q228.8594,370.625 228.625,370.8906 Q228.3906,371.1563 228.0156,371.1563 Q227.6719,371.1563 227.4688,370.9531 Q227.2656,370.7656 227.1563,370.25 Q227.1094,369.8906 226.9219,369.7031 Q226.5938,369.3281 225.9844,369.1094 Q225.375,368.8906 224.75,368.8906 Q223.9844,368.8906 223.3438,369.2188 Q222.7188,369.5469 222.2188,370.2969 Q221.7344,371.0469 221.7344,372.0781 L221.7344,373.1719 Q221.7344,374.4063 222.625,375.2344 Q223.5156,376.0469 225.1094,376.0469 Q226.0469,376.0469 226.7031,375.7969 Q227.0938,375.6406 227.5156,375.2031 Q227.7813,374.9375 227.9219,374.8594 Q228.0781,374.7813 228.2813,374.7813 Q228.6094,374.7813 228.8594,375.0469 Q229.125,375.2969 229.125,375.6406 Q229.125,375.9844 228.7813,376.3906 Q228.2813,376.9688 227.4844,377.2969 Q226.4063,377.75 225.1094,377.75 Q223.5938,377.75 222.3906,377.125 Q221.4063,376.625 220.7188,375.5625 Q220.0313,374.4844 220.0313,373.2031 L220.0313,372.0469 Q220.0313,370.7188 220.6406,369.5781 Q221.2656,368.4219 222.3594,367.8125 Q223.4531,367.1875 224.6875,367.1875 Q225.4219,367.1875 226.0625,367.3594 Q226.7188,367.5156 227.2656,367.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="238.5" y="376.9102">V1Redirector</text><line style="stroke:#A80036;stroke-width:1.5;" x1="210.5" x2="311.5" y1="388" y2="388"/><ellipse cx="220.5" cy="399" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="229.5" y="403.4189">actionA()</text><ellipse cx="220.5" cy="412.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="229.5" y="417.2549">actionB()</text><!--MD5=[d364b3ef4f993ae241c602c8bf7cd1a3]
-class V2Logic--><rect codeLine="24" fill="#FEFECE" filter="url(#fgddwr1qk1ty5)" height="67.6719" id="V2Logic" style="stroke:#A80036;stroke-width:1.5;" width="76" x="223" y="188"/><ellipse cx="238" cy="204" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M240.7656,199.875 Q240.9219,199.6563 241.1094,199.5469 Q241.2969,199.4375 241.5156,199.4375 Q241.8906,199.4375 242.125,199.7031 Q242.3594,199.9531 242.3594,200.5625 L242.3594,202.0156 Q242.3594,202.625 242.125,202.8906 Q241.8906,203.1563 241.5156,203.1563 Q241.1719,203.1563 240.9688,202.9531 Q240.7656,202.7656 240.6563,202.25 Q240.6094,201.8906 240.4219,201.7031 Q240.0938,201.3281 239.4844,201.1094 Q238.875,200.8906 238.25,200.8906 Q237.4844,200.8906 236.8438,201.2188 Q236.2188,201.5469 235.7188,202.2969 Q235.2344,203.0469 235.2344,204.0781 L235.2344,205.1719 Q235.2344,206.4063 236.125,207.2344 Q237.0156,208.0469 238.6094,208.0469 Q239.5469,208.0469 240.2031,207.7969 Q240.5938,207.6406 241.0156,207.2031 Q241.2813,206.9375 241.4219,206.8594 Q241.5781,206.7813 241.7813,206.7813 Q242.1094,206.7813 242.3594,207.0469 Q242.625,207.2969 242.625,207.6406 Q242.625,207.9844 242.2813,208.3906 Q241.7813,208.9688 240.9844,209.2969 Q239.9063,209.75 238.6094,209.75 Q237.0938,209.75 235.8906,209.125 Q234.9063,208.625 234.2188,207.5625 Q233.5313,206.4844 233.5313,205.2031 L233.5313,204.0469 Q233.5313,202.7188 234.1406,201.5781 Q234.7656,200.4219 235.8594,199.8125 Q236.9531,199.1875 238.1875,199.1875 Q238.9219,199.1875 239.5625,199.3594 Q240.2188,199.5156 240.7656,199.875 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="252" y="208.9102">V2Logic</text><line style="stroke:#A80036;stroke-width:1.5;" x1="224" x2="298" y1="220" y2="220"/><ellipse cx="234" cy="231" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="243" y="235.4189">actionC()</text><ellipse cx="234" cy="244.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="243" y="249.2549">actionD()</text><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
-entity Client--><ellipse cx="261" cy="14" fill="#FEFECE" filter="url(#fgddwr1qk1ty5)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="243" y="45.5332">Client</text><path d="M369,508.5 L369,567.5547 A0,0 0 0 0 369,567.5547 L493,567.5547 A0,0 0 0 0 493,567.5547 L493,518.5 L483,508.5 L401.74,508.5 L299.58,424.13 L393.74,508.5 L369,508.5 A0,0 0 0 0 369,508.5 " fill="#FBFB77" filter="url(#fgddwr1qk1ty5)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M483,508.5 L483,518.5 L493,518.5 L483,508.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="375" y="526.9951">implement</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="375" y="543.3467">resource mapping</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="375" y="559.6982">mechanism</text><!--MD5=[d2ebf525126bdd4d1bb58817c8976931]
-link V1Logic to IV1Logic--><path codeLine="31" d="M96.27,424.13 C97.79,446.27 99.78,475.46 101.37,498.61 " fill="none" id="V1Logic-to-IV1Logic" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="101.72,503.75,105.0949,494.4974,101.3779,498.7617,97.1137,495.0447,101.72,503.75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="101" y="470.4951">implement</text><!--MD5=[ff133054ab94e251e727af2833b4b17a]
-link V1Redirector to IV1Logic--><path codeLine="32" d="M225.37,424.13 C201.07,446.73 168.86,476.69 143.73,500.06 " fill="none" id="V1Redirector-to-IV1Logic" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="139.76,503.75,149.0812,500.5696,143.4285,500.3527,143.6455,494.7,139.76,503.75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="189" y="470.4951">implement</text><!--MD5=[08c181110a4f2d4d89af706b598856ea]
-link V2Logic to V1Redirector--><path codeLine="33" d="M261,256.19 C261,283.45 261,322.08 261,350.65 " fill="none" id="V2Logic-to-V1Redirector" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="261,355.86,265,346.86,261,350.86,257,346.86,261,355.86" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="262" y="300.4951">extends</text><!--MD5=[5caab316c215afe41a18d98ebcd0d2a4]
-link Client to V2Logic--><path codeLine="41" d="M261,23.08 C261,49.25 261,132.95 261,182.73 " fill="none" id="Client-to-V2Logic" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="261,187.73,265,178.73,261,182.73,257,178.73,261,187.73" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="262" y="88.4951">call API</text><!--MD5=[d8419e3c8aa8185d3ef7aa397297feae]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="application/ecmascript"
+   contentStyleType="text/css"
+   height="619px"
+   preserveAspectRatio="none"
+   style="width:370px;height:619px;"
+   version="1.1"
+   viewBox="0 0 370 619"
+   width="370px"
+   zoomAndPan="magnify"
+   id="svg131"
+   sodipodi:docname="endpoint_redirection_extended_class.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata135">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1562"
+     inkscape:window-height="1368"
+     id="namedview133"
+     showgrid="false"
+     inkscape:zoom="0.84532959"
+     inkscape:cx="15.064861"
+     inkscape:cy="149.26469"
+     inkscape:window-x="1913"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g129" />
+  <defs
+     id="defs11">
+    <filter
+       height="1.1199242"
+       id="fz2sz5chj3il9"
+       width="1.6801277"
+       x="-0.48398614"
+       y="-0.065829992">
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2.0"
+         id="feGaussianBlur2" />
+      <feColorMatrix
+         in="blurOut"
+         result="blurOut2"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         id="feColorMatrix4" />
+      <feOffset
+         dx="4.0"
+         dy="4.0"
+         in="blurOut2"
+         result="blurOut3"
+         id="feOffset6" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut3"
+         mode="normal"
+         id="feBlend8" />
+    </filter>
+  </defs>
+  <g
+     id="g129">
+    <!--MD5=[7058f338f099d236033fc5161613b206]
+cluster Api-->
+    <!--MD5=[9a32cd3984fdd08205638aa42968fc5c]
+cluster v1-->
+    <polygon
+       fill="#ffffff"
+       filter="url(#fz2sz5chj3il9)"
+       points="223,320 230,343.6094 329,343.6094 329,588 200,588 200,320 "
+       style="stroke:#000000;stroke-width:1.5"
+       id="polygon19"
+       transform="translate(-3.7641892,-146.80338)" />
+    <!--MD5=[8f568eda7f993736a9f8e47c0c4df829]
+cluster v2-->
+    <polygon
+       fill="#FFFFFF"
+       filter="url(#fz2sz5chj3il9)"
+       points="40,152,63,152,70,175.6094,176,175.6094,176,440,40,440,40,152"
+       style="stroke:#000000;stroke-width:1.5;"
+       id="polygon25" />
+    <line
+       style="stroke:#000000;stroke-width:1.5;"
+       x1="40"
+       x2="70"
+       y1="175.6094"
+       y2="175.6094"
+       id="line27" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14"
+       font-weight="bold"
+       lengthAdjust="spacing"
+       textLength="17"
+       x="44"
+       y="168.5332"
+       id="text29">v2</text>
+    <path
+       d="m -124.225,358.35068 v 59.0547 H -0.22500009 V 403.60473 L 55.819595,373.49122 -0.22500009,388.54798 v -20.1973 l -9.99999991,-10 h -114"
+       fill="#fbfb77"
+       filter="url(#fz2sz5chj3il9)"
+       style="stroke:#a80036;stroke-width:1"
+       id="path31"
+       sodipodi:nodetypes="ccccccccc" />
+    <g
+       id="g141"
+       transform="translate(-170.225,-150.14932)">
+      <path
+         d="m 160,508.5 v 10 h 10 l -10,-10"
+         fill="#fbfb77"
+         style="stroke:#a80036;stroke-width:1"
+         id="path33" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="60"
+         x="52"
+         y="526.99512"
+         id="text35">implement</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="103"
+         x="52"
+         y="543.34668"
+         id="text37">resource mapping</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="67"
+         x="52"
+         y="559.69818"
+         id="text39">mechanism</text>
+    </g>
+    <!--MD5=[9319f6a29b119d01e1f5b6d1a6e1c87d]
+class IV1Logic-->
+    <rect
+       codeLine="9"
+       fill="#fefece"
+       filter="url(#fz2sz5chj3il9)"
+       height="67.671898"
+       id="IV1Logic"
+       style="stroke:#a80036;stroke-width:1.5"
+       width="81"
+       x="213.70581"
+       y="356.9166" />
+    <!--MD5=[79864ccd20def053537427cdd976eaa6]
+class V1Logic-->
+    <rect
+       codeLine="13"
+       fill="#fefece"
+       filter="url(#fz2sz5chj3il9)"
+       height="67.671898"
+       id="V1Logic"
+       style="stroke:#a80036;stroke-width:1.5"
+       width="76"
+       x="212.23581"
+       y="210.03311" />
+    <!--MD5=[f0f371c9723ea81dc4e31895b1cd902c]
+class V1Redirector-->
+    <rect
+       codeLine="20"
+       fill="#FEFECE"
+       filter="url(#fz2sz5chj3il9)"
+       height="67.6719"
+       id="V1Redirector"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="103"
+       x="56.5"
+       y="356" />
+    <ellipse
+       cx="71.5"
+       cy="372"
+       fill="#ADD1B2"
+       rx="11"
+       ry="11"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="ellipse72" />
+    <path
+       d="M74.2656,367.875 Q74.4219,367.6563 74.6094,367.5469 Q74.7969,367.4375 75.0156,367.4375 Q75.3906,367.4375 75.625,367.7031 Q75.8594,367.9531 75.8594,368.5625 L75.8594,370.0156 Q75.8594,370.625 75.625,370.8906 Q75.3906,371.1563 75.0156,371.1563 Q74.6719,371.1563 74.4688,370.9531 Q74.2656,370.7656 74.1563,370.25 Q74.1094,369.8906 73.9219,369.7031 Q73.5938,369.3281 72.9844,369.1094 Q72.375,368.8906 71.75,368.8906 Q70.9844,368.8906 70.3438,369.2188 Q69.7188,369.5469 69.2188,370.2969 Q68.7344,371.0469 68.7344,372.0781 L68.7344,373.1719 Q68.7344,374.4063 69.625,375.2344 Q70.5156,376.0469 72.1094,376.0469 Q73.0469,376.0469 73.7031,375.7969 Q74.0938,375.6406 74.5156,375.2031 Q74.7813,374.9375 74.9219,374.8594 Q75.0781,374.7813 75.2813,374.7813 Q75.6094,374.7813 75.8594,375.0469 Q76.125,375.2969 76.125,375.6406 Q76.125,375.9844 75.7813,376.3906 Q75.2813,376.9688 74.4844,377.2969 Q73.4063,377.75 72.1094,377.75 Q70.5938,377.75 69.3906,377.125 Q68.4063,376.625 67.7188,375.5625 Q67.0313,374.4844 67.0313,373.2031 L67.0313,372.0469 Q67.0313,370.7188 67.6406,369.5781 Q68.2656,368.4219 69.3594,367.8125 Q70.4531,367.1875 71.6875,367.1875 Q72.4219,367.1875 73.0625,367.3594 Q73.7188,367.5156 74.2656,367.875 Z "
+       fill="#000000"
+       id="path74" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="12"
+       lengthAdjust="spacing"
+       textLength="71"
+       x="85.5"
+       y="376.9102"
+       id="text76">V1Redirector</text>
+    <line
+       style="stroke:#A80036;stroke-width:1.5;"
+       x1="57.5"
+       x2="158.5"
+       y1="388"
+       y2="388"
+       id="line78" />
+    <ellipse
+       cx="67.5"
+       cy="399"
+       fill="#84BE84"
+       rx="3"
+       ry="3"
+       style="stroke:#038048;stroke-width:1.0;"
+       id="ellipse80" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="11"
+       lengthAdjust="spacing"
+       textLength="45"
+       x="76.5"
+       y="403.4189"
+       id="text82">actionA()</text>
+    <ellipse
+       cx="67.5"
+       cy="412.8359"
+       fill="#84BE84"
+       rx="3"
+       ry="3"
+       style="stroke:#038048;stroke-width:1.0;"
+       id="ellipse84" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="11"
+       lengthAdjust="spacing"
+       textLength="44"
+       x="76.5"
+       y="417.2549"
+       id="text86">actionB()</text>
+    <!--MD5=[d364b3ef4f993ae241c602c8bf7cd1a3]
+class V2Logic-->
+    <rect
+       codeLine="24"
+       fill="#FEFECE"
+       filter="url(#fz2sz5chj3il9)"
+       height="67.6719"
+       id="V2Logic"
+       style="stroke:#A80036;stroke-width:1.5;"
+       width="76"
+       x="70"
+       y="188" />
+    <ellipse
+       cx="85"
+       cy="204"
+       fill="#ADD1B2"
+       rx="11"
+       ry="11"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="ellipse89" />
+    <path
+       d="M87.7656,199.875 Q87.9219,199.6563 88.1094,199.5469 Q88.2969,199.4375 88.5156,199.4375 Q88.8906,199.4375 89.125,199.7031 Q89.3594,199.9531 89.3594,200.5625 L89.3594,202.0156 Q89.3594,202.625 89.125,202.8906 Q88.8906,203.1563 88.5156,203.1563 Q88.1719,203.1563 87.9688,202.9531 Q87.7656,202.7656 87.6563,202.25 Q87.6094,201.8906 87.4219,201.7031 Q87.0938,201.3281 86.4844,201.1094 Q85.875,200.8906 85.25,200.8906 Q84.4844,200.8906 83.8438,201.2188 Q83.2188,201.5469 82.7188,202.2969 Q82.2344,203.0469 82.2344,204.0781 L82.2344,205.1719 Q82.2344,206.4063 83.125,207.2344 Q84.0156,208.0469 85.6094,208.0469 Q86.5469,208.0469 87.2031,207.7969 Q87.5938,207.6406 88.0156,207.2031 Q88.2813,206.9375 88.4219,206.8594 Q88.5781,206.7813 88.7813,206.7813 Q89.1094,206.7813 89.3594,207.0469 Q89.625,207.2969 89.625,207.6406 Q89.625,207.9844 89.2813,208.3906 Q88.7813,208.9688 87.9844,209.2969 Q86.9063,209.75 85.6094,209.75 Q84.0938,209.75 82.8906,209.125 Q81.9063,208.625 81.2188,207.5625 Q80.5313,206.4844 80.5313,205.2031 L80.5313,204.0469 Q80.5313,202.7188 81.1406,201.5781 Q81.7656,200.4219 82.8594,199.8125 Q83.9531,199.1875 85.1875,199.1875 Q85.9219,199.1875 86.5625,199.3594 Q87.2188,199.5156 87.7656,199.875 Z "
+       fill="#000000"
+       id="path91" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="12"
+       lengthAdjust="spacing"
+       textLength="44"
+       x="99"
+       y="208.9102"
+       id="text93">V2Logic</text>
+    <line
+       style="stroke:#A80036;stroke-width:1.5;"
+       x1="71"
+       x2="145"
+       y1="220"
+       y2="220"
+       id="line95" />
+    <ellipse
+       cx="81"
+       cy="231"
+       fill="#84BE84"
+       rx="3"
+       ry="3"
+       style="stroke:#038048;stroke-width:1.0;"
+       id="ellipse97" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="11"
+       lengthAdjust="spacing"
+       textLength="44"
+       x="90"
+       y="235.4189"
+       id="text99">actionC()</text>
+    <ellipse
+       cx="81"
+       cy="244.8359"
+       fill="#84BE84"
+       rx="3"
+       ry="3"
+       style="stroke:#038048;stroke-width:1.0;"
+       id="ellipse101" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="11"
+       lengthAdjust="spacing"
+       textLength="44"
+       x="90"
+       y="249.2549"
+       id="text103">actionD()</text>
+    <!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client-->
+    <ellipse
+       cx="-36.712162"
+       cy="201.37297"
+       fill="#fefece"
+       filter="url(#fz2sz5chj3il9)"
+       style="stroke:#a80036;stroke-width:1.5"
+       id="ellipse105"
+       r="8" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="14px"
+       lengthAdjust="spacing"
+       textLength="36"
+       x="90"
+       y="45.533199"
+       id="text107"
+       transform="translate(-176.49865,160.60541)">Client</text>
+    <!--MD5=[d2ebf525126bdd4d1bb58817c8976931]
+link V1Logic to IV1Logic-->
+    <!--MD5=[ff133054ab94e251e727af2833b4b17a]
+link V1Redirector to IV1Logic-->
+    <path
+       codeLine="38"
+       d="m 160.64162,375.97203 c 47.21142,-1.95596 -0.94225,0.68959 23.94014,-0.67744 23.27128,-1.27852 -23.94014,0.67744 23.27128,-1.27852"
+       fill="none"
+       id="V1Redirector-to-IV1Logic"
+       style="stroke:#a80036;stroke-width:1;stroke-dasharray:7, 7"
+       sodipodi:nodetypes="csc" />
+    <g
+       id="g188"
+       transform="translate(-3.7641892,-146.80339)">
+      <line
+         style="stroke:#000000;stroke-width:1.5"
+         x1="200"
+         x2="230"
+         y1="343.60941"
+         y2="343.60941"
+         id="line21" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14px"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="17"
+         x="204"
+         y="336.5332"
+         id="text23">v1</text>
+      <circle
+         cx="231.5"
+         cy="520"
+         fill="#b4a7e5"
+         style="stroke:#a80036;stroke-width:1"
+         id="ellipse42"
+         r="11" />
+      <path
+         d="m 232.4531,516.6406 v 6.6563 h 1.7188 q 0.6094,0 0.875,0.2344 0.2656,0.2343 0.2656,0.625 0,0.375 -0.2656,0.6093 Q 234.7813,525 234.1719,525 h -5.1406 q -0.6094,0 -0.875,-0.2344 -0.2657,-0.2343 -0.2657,-0.625 0,-0.375 0.2657,-0.6093 0.2656,-0.2344 0.875,-0.2344 h 1.7187 v -6.6563 h -1.7187 q -0.6094,0 -0.875,-0.2343 -0.2657,-0.2344 -0.2657,-0.625 0,-0.375 0.2657,-0.6094 0.2656,-0.2344 0.875,-0.2344 h 5.1406 q 0.6094,0 0.875,0.2344 0.2656,0.2344 0.2656,0.6094 0,0.3906 -0.2656,0.625 -0.2656,0.2343 -0.875,0.2343 z"
+         fill="#000000"
+         id="path44" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="12px"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="49"
+         x="245.5"
+         y="524.91022"
+         id="text46">IV1Logic</text>
+      <line
+         style="stroke:#a80036;stroke-width:1.5"
+         x1="217.5"
+         x2="296.5"
+         y1="536"
+         y2="536"
+         id="line48" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="11px"
+         lengthAdjust="spacing"
+         textLength="45"
+         x="222.5"
+         y="551.41888"
+         id="text50">actionA()</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="11px"
+         lengthAdjust="spacing"
+         textLength="44"
+         x="222.5"
+         y="565.25488"
+         id="text52">actionB()</text>
+      <circle
+         cx="231"
+         cy="372"
+         fill="#add1b2"
+         style="stroke:#a80036;stroke-width:1"
+         id="ellipse55"
+         r="11" />
+      <path
+         d="m 233.7656,367.875 q 0.1563,-0.2187 0.3438,-0.3281 0.1875,-0.1094 0.4062,-0.1094 0.375,0 0.6094,0.2656 0.2344,0.25 0.2344,0.8594 v 1.4531 q 0,0.6094 -0.2344,0.875 -0.2344,0.2657 -0.6094,0.2657 -0.3437,0 -0.5468,-0.2032 -0.2032,-0.1875 -0.3125,-0.7031 -0.0469,-0.3594 -0.2344,-0.5469 -0.3281,-0.375 -0.9375,-0.5937 -0.6094,-0.2188 -1.2344,-0.2188 -0.7656,0 -1.4062,0.3282 -0.625,0.3281 -1.125,1.0781 -0.4844,0.75 -0.4844,1.7812 v 1.0938 q 0,1.2344 0.8906,2.0625 0.8906,0.8125 2.4844,0.8125 0.9375,0 1.5937,-0.25 0.3907,-0.1563 0.8125,-0.5938 0.2657,-0.2656 0.4063,-0.3437 0.1562,-0.0781 0.3594,-0.0781 0.3281,0 0.5781,0.2656 0.2656,0.25 0.2656,0.5937 0,0.3438 -0.3437,0.75 -0.5,0.5782 -1.2969,0.9063 -1.0781,0.4531 -2.375,0.4531 -1.5156,0 -2.7188,-0.625 -0.9843,-0.5 -1.6718,-1.5625 -0.6875,-1.0781 -0.6875,-2.3594 v -1.1562 q 0,-1.3281 0.6093,-2.4688 0.625,-1.1562 1.7188,-1.7656 1.0937,-0.625 2.3281,-0.625 0.7344,0 1.375,0.1719 0.6563,0.1562 1.2031,0.5156 z"
+         fill="#000000"
+         id="path57" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="12px"
+         lengthAdjust="spacing"
+         textLength="44"
+         x="245"
+         y="376.91019"
+         id="text59">V1Logic</text>
+      <line
+         style="stroke:#a80036;stroke-width:1.5"
+         x1="217"
+         x2="291"
+         y1="388"
+         y2="388"
+         id="line61" />
+      <circle
+         cx="227"
+         cy="399"
+         fill="#84be84"
+         style="stroke:#038048;stroke-width:1"
+         id="ellipse63"
+         r="3" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="11px"
+         lengthAdjust="spacing"
+         textLength="45"
+         x="236"
+         y="403.41891"
+         id="text65">actionA()</text>
+      <circle
+         cx="227"
+         cy="412.83591"
+         fill="#84be84"
+         style="stroke:#038048;stroke-width:1"
+         id="ellipse67"
+         r="3" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="11px"
+         lengthAdjust="spacing"
+         textLength="44"
+         x="236"
+         y="417.25491"
+         id="text69">actionB()</text>
+      <path
+         codeLine="37"
+         d="m 254.68,424.13 c 0.46,22.14 1.06,51.33 1.53,74.48"
+         fill="none"
+         id="V1Logic-to-IV1Logic"
+         style="stroke:#a80036;stroke-width:1;stroke-dasharray:7, 7" />
+      <polygon
+         fill="#a80036"
+         points="252.1154,494.8438 256.32,503.75 260.1133,494.6609 256.2057,498.7513 "
+         style="stroke:#a80036;stroke-width:1"
+         id="polygon110" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="60"
+         x="256"
+         y="470.49509"
+         id="text112">implement</text>
+      <polygon
+         fill="#a80036"
+         points="213.3476,494.7754 213.7133,500.4204 208.0683,500.7861 217.47,503.72 "
+         style="stroke:#a80036;stroke-width:1"
+         id="polygon115"
+         transform="rotate(-37.177171,242.99254,513.73616)" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13px"
+         lengthAdjust="spacing"
+         textLength="60"
+         x="186"
+         y="470.49509"
+         id="text117"
+         transform="translate(-33.459459,26.349324)">implement</text>
+    </g>
+    <!--MD5=[08c181110a4f2d4d89af706b598856ea]
+link V2Logic to V1Redirector-->
+    <path
+       codeLine="39"
+       d="M108,256.19 C108,283.45 108,322.08 108,350.65 "
+       fill="none"
+       id="V2Logic-to-V1Redirector"
+       style="stroke:#A80036;stroke-width:1.0;" />
+    <polygon
+       fill="#A80036"
+       points="108,355.86,112,346.86,108,350.86,104,346.86,108,355.86"
+       style="stroke:#A80036;stroke-width:1.0;"
+       id="polygon120" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13"
+       lengthAdjust="spacing"
+       textLength="46"
+       x="109"
+       y="300.4951"
+       id="text122">extends</text>
+    <!--MD5=[5caab316c215afe41a18d98ebcd0d2a4]
+link Client to V2Logic-->
+    <path
+       codeLine="43"
+       d="m -28.347297,202.08811 97.032432,0.71757"
+       fill="none"
+       id="Client-to-V2Logic"
+       style="stroke:#a80036;stroke-width:1;stroke-dasharray:7, 7"
+       sodipodi:nodetypes="cc" />
+    <polygon
+       fill="#a80036"
+       points="104,178.73 108,187.73 112,178.73 108,182.73 "
+       style="stroke:#a80036;stroke-width:1"
+       id="polygon125"
+       transform="rotate(-88.354346,95.946416,215.27833)" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13px"
+       lengthAdjust="spacing"
+       textLength="45"
+       x="109"
+       y="88.495102"
+       id="text127"
+       transform="translate(-140.52973,104.14257)">call API</text>
+    <!--MD5=[46b8874c105fc5fc0ebaf4f710e2e64e]
 @startuml endpoint_redirection_extended_class
 
 hide empty members
@@ -40,17 +604,19 @@ package Api {
             +actionD()
         }
     }
+
+    note bottom of V1Redirector
+        implement
+        resource mapping
+        mechanism
+    endnote
 }
 
 V1Logic ..> IV1Logic : implement
 V1Redirector ..> IV1Logic : implement
 V2Logic - -> V1Redirector : extends
 
-note bottom of V1Redirector
-    implement
-    resource mapping
-    mechanism
-endnote
+
 
 Client ..> V2Logic : call API
 
@@ -63,4 +629,6 @@ JVM: OpenJDK 64-Bit Server VM
 Default Encoding: Cp1252
 Language: en
 Country: US
---></g></svg>
+-->
+  </g>
+</svg>
