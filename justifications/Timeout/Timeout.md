@@ -114,3 +114,7 @@ C# and dotnet core support asynchronous programming, make it easier to isolate a
 ## Terminate an operation in Java
 
 In java, starting from java 7, developer can use `ExecutorService` to execute a task that could be terminated later.
+
+# 5. Some other ideas
+
+WebSocket, with Ping/Pong - a fun name for HTTP Polling: https://github.com/websockets/ws#how-to-detect-and-close-broken-connections
