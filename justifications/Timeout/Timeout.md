@@ -101,7 +101,7 @@ Note: For this to be realized, the client must be programmed in a way that can p
 
 Developer can choose to combine both approaches to maximize the benefit.
 
-![combined](https://github.com/huntertran/concordia-thesis-topic/blob/main/out/justifications/Timeout/timeout_disconnect_early.png?raw=true)
+![combined](https://github.com/huntertran/concordia-thesis-topic/blob/main/justifications/Timeout/timeout_disconnect_early.png?raw=true)
 
 When the client is polling for the result status, the client goes offline. The server wait for the client to poll again, and after a period of time, the server terminate the process to save server resource
 
